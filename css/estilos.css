@@ -1,0 +1,703 @@
+/*Fonts*/
+
+@import url('https://db.onlinewebfonts.com/c/75c340c1dda8681afce082c6bfbcf3f4?family=Plakkaat');
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/*Generales*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color:#FCEBB7;
+	font-family: 'Heebo', sans-serif;
+
+}
+
+/*Estilos Header*/
+
+
+.header {
+	width: 100%;
+	position: fixed;
+	top: 24px;
+	
+}
+
+.container {
+	max-width: 100%;
+	margin-top: 1%;
+}
+
+.container .btn-menu label {
+	cursor: pointer;
+}
+
+.container .menu {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+
+.container .menu a {
+	text-decoration: none;
+	padding: 10px 15px 10px 15px;
+	line-height: normal;
+	color: black;
+	transition: all 0.3s ease;
+	font-size: 0.9rem;
+	font-weight: 500;
+	border-radius: 30px;
+}
+
+.container .menu a:hover {
+		background: rgb(0,0,0,0.03);
+		border-radius: 30px;
+		padding: 10px 15px 10px 15px;
+}
+
+.logo {
+	background-image: url('../assets/logo-bar.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.user {
+	background-image: url('../assets/user.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.shopcar {
+	background-image: url('../assets/shopcar.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+/*Barra Lateral*/
+
+#btn-menu {
+	display:none ;
+}
+
+.btn-menu label {
+	position: absolute;
+	margin-left: 24px;
+}
+
+.container-menu {
+	position: fixed;
+	background: rgb(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	top:0; left: 0;
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+}
+
+#btn-menu:checked ~ .container-menu {
+	opacity: 1;
+	visibility: visible;
+}
+
+.cont-menu {
+	width: 100%;
+	max-width: 765px;
+	background:white;
+	height: 100%;
+	position: fixed;
+	transition: all 500ms ease;
+	transform:translateX(-100%)
+}
+
+#btn-menu:checked ~ .container-menu .cont-menu {
+	transform:translateX(0%)
+}
+
+.cont-menu .nav {
+	transform: translateY(15%);
+}
+
+.cont-menu .nav a {
+	display:block;
+	text-decoration: none;
+	padding: 20px;
+	color: #110042;
+	background: none;
+	transition: all 400ms ease;
+	font-family: 'Plakkaat', sans-serif; 
+	font-size: 22px;
+	margin-left: 36px;
+}
+
+.cont-menu .nav a:hover {
+	background-image: url('../assets/hover-menu.svg');
+	background-repeat: no-repeat;
+}	
+
+.cont-menu label {
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	cursor: pointer;
+}	
+
+
+.btn-menu {
+	display: none;
+}
+
+
+/* --- Hasta aqui todo funcionando con Header y Barra Lateral -- */
+
+/* Sections */ 
+
+/* Snackbox - Index */ 
+
+.sectionSnackBox {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas:
+	"snackbox snack";
+	background-color: #acd7ee;
+	margin-top: 100px;
+	height: 100vh;
+	padding: 5%;
+}
+
+.snackbox {
+	grid-area: snackbox;
+	background-color: #acd7ef;
+	color:#126da0;
+}
+
+.snack {
+	grid-area: snack;
+	background-color: #acd7ef;
+	background-image: url('../assets/20snack.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+/* Products - Index */ 
+
+.sectionProducts {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas:
+	"chia bollo semita";
+	height: 100vh;
+}
+
+.chia {
+	grid-area: chia;
+	background-color: #EADECD;
+	color: #382c20;
+	
+
+}
+
+.bollo {
+	grid-area: bollo;
+	background-color: #D7C4C3;
+	color: #53201c;
+}
+
+.semita {
+	grid-area: semita;
+	background-color: #FFE0A4;
+	color: #896b41;
+
+}
+
+/* Snackbars - Index */ 
+
+.sectionBars {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas:
+	"bars  box";
+	height: 100vh;
+	padding: 5%;
+    background-color: white;
+}
+
+.box {
+	grid-area: box;
+	background-color: #fde4e6;
+	color:#e0444e;
+	
+
+}
+
+.bars {
+	grid-area: bars;
+	background-color: white;
+	background-image: url('../assets/bars.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+/* Form - Index */ 
+
+.sectionForm {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas:
+	"susc  form";
+	height: 100vh;
+	padding: 5%;
+	background-color: white;
+
+}
+
+.suscribe {
+	grid-area: susc;
+	background-color: white;
+	color:#110042;
+
+
+}
+
+.form {
+	grid-area: form;
+	background-color: white;
+	color:#110042;
+
+}
+
+/* Footer - Index */ 
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100vw;
+	height: 100px;
+	background-color: #FAFAFA;
+	align-content: center;
+
+
+}
+
+.footer a {
+	text-decoration: none;
+	color: black;
+	font-weight: 400;
+}
+
+/* Classes Style */ 
+
+.btn {
+	font-size: 1rem;
+	line-height: 1rem;
+	font-weight: 700;
+	color: #acd7ef;
+	background-image: url('../assets/btn1.svg');
+	background-repeat: no-repeat;
+	width: 226px;
+    height: 63px;
+    padding-top: 24px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.producto {
+	display:flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.textbox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 5%;
+
+}
+
+.img {
+
+	background-repeat: no-repeat;
+	background-size: contain;
+	width:50%;
+	height: 50%;
+	margin-bottom: 10%;
+	background-position: center center;
+}
+
+.title {
+	font-family: 'Plakkaat', sans-serif; 
+	font-size: 1.5rem;
+	margin-bottom: 10%;
+}
+
+.text {
+	font-weight: 400;
+	margin-bottom: 10%;
+}
+
+.precio {
+	color: black;
+}
+
+.main {
+	font-size: 4rem;
+}
+
+
+.form {
+	align-items: center;
+}
+
+.subtitle {
+	font-weight: 700;
+}
+
+.italic {
+	font-style: italic;
+}
+
+/* subClasses Style */ 
+
+.btn-form {
+
+	font-size: 1rem;
+	line-height: 1rem;
+	font-weight: 700;
+	color: white;
+	background-image: url('../assets/btn-form.svg');
+	background-repeat: no-repeat;
+	width: 226px;
+    height: 63px;
+    text-decoration: none;
+    text-align: center;
+    border:solid white;
+
+}
+
+.form ul {
+	list-style-type: none;
+}
+
+.img-chia {
+	background-image: url('../assets/chia.png');
+}
+
+.img-bollo {
+	background-image: url('../assets/bollo.png');
+}
+
+.img-sem {
+	background-image: url('../assets/semita.png');
+}
+
+
+.form li {
+	padding-bottom: 5%;
+}
+
+
+.ch {
+	background-image: url('../assets/btn-chia.svg');
+	color: #EADECD;
+}
+
+.boll {
+	background-image: url('../assets/btn-bollo.svg');
+	color: #D7C4C3;
+}
+
+
+ .sem {
+	background-image: url('../assets/btn-semita.svg');
+	color: #FFE0A4;
+}
+
+.bar {
+	background-image: url('../assets/btn-barra.svg');
+	color: #fde4e6;
+}
+
+.newsletter .input {
+	font-family: 'Heebo', sans-serif;
+	font-size: 1rem;
+	line-height: 1rem;
+	font-weight: 600;
+	font-color: #000;
+	background-image: url('../assets/hover-menu.svg');
+	background-repeat: no-repeat;
+	width: 342px;
+    height: 63px;
+    text-decoration: none;
+    text-align: center;
+    border-style: none;
+
+}
+
+/* Snackbox - Link */ 
+
+.sectionSnackBoxLink {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas:
+	"snack snackbox";
+	background-color: #acd7ee;
+	margin-top: 100px;
+	height: 100vh;
+	padding: 5%;
+}
+
+.snackboxLink {
+	grid-area: snackbox;
+	background-color: #acd7ef;
+	color:#126da0;
+}
+
+.snackLink {
+	grid-area: snack;
+	background-color: #acd7ef;
+	background-image: url('../assets/20snack.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+
+.sectionBarsLink {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas:
+	"boxLink barsLink";
+	height: 100%;
+	padding: 5%;
+    background-color: white;
+}
+
+.boxLink {
+	grid-area: boxLink;
+	background-color: white;
+	color:#0a0a0a;
+	
+
+}
+
+.barsLink {
+	grid-area: barsLink;
+	background-color: white;
+	background-image: url('../assets/bars-full.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top center;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+	.btn-menu {
+		display: block;
+
+	}
+
+	.menu {
+		height: 46px;
+	}
+
+	.shop {
+		display:none;
+	}
+
+	.about {
+		display:none;
+	}
+
+	.store {
+		display:none;
+	}
+
+	.events {
+		display:none;
+	}
+
+	.shopcar {
+		display:none;
+	}
+
+	.user {
+		display:none;
+	}
+
+	.btn {
+		font-size: 1.2rem;
+	}
+
+	.sectionProducts {
+		height: 50vh;
+	}
+	
+	.sectionSnackBox {
+		height: 50vh;
+	}
+
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	.sectionSnackBox {
+	display: grid;
+	grid-template-columns: 1fr ;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas:
+	"snack"
+	"snackbox";
+	height: 80vh;
+	}
+
+	.sectionProducts {
+		height: 50vh;
+
+	}
+
+	.sectionBars {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr ;
+	grid-template-areas:
+	"bars"
+	"box";
+	height: 80vh;
+	}
+
+	.sectionForm {
+		height: 50vh;
+	}
+
+	.textbox {
+		text-align: center;
+		align-items: center;
+	}
+
+	.main {
+	font-size: 3rem;
+	}
+
+	.sectionSnackBoxLink {
+	display: grid;
+	grid-template-columns: 1fr ;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas:
+	"snack"
+	"snackbox";
+	height: 80vh;
+	}
+
+	.sectionBarsLink {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr ;
+	grid-template-areas:
+	"barsLink"
+	"boxLink";
+	height: 100%;
+	}
+
+	.boxLink {
+		margin-top: -250px;
+	}
+
+}
+
+
+@media only screen and (max-width: 375px) {
+	.sectionProducts {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas:
+	"chia"
+	"bollo"
+	"semita";
+	}
+
+	.sectionForm {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas:
+	"susc"
+	"form";
+	}
+
+	.sectionProducts {
+		height: 100vh;
+
+	}
+
+	.sectionBars {
+		height: 50vh;
+	}
+
+	.producto {
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+
+	.main {
+	font-size: 2.5rem;
+	}
+
+	.sectionSnackBox {
+	height: 50vh;
+	}
+
+	.textbox {
+		padding-bottom: 5%;
+	}
+
+	.sectionForm {
+	height: 60vh;
+	}
+
+	.sectionSnackBoxLink {
+	height: 50vh;
+	}
+
+	.sectionBarsLink {
+		height: 100%;
+	}
+
+	.boxLink {
+		margin-top: -450px;
+	}
+
+
+}
+
+
+
+
+
+
