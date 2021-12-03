@@ -156,7 +156,9 @@ body {
 	right: 20px;
 	top: 10px;
 	cursor: pointer;
-}	
+}
+
+
 
 
 .btn-menu {
@@ -190,7 +192,7 @@ body {
 
 .snack {
 	grid-area: snack;
-	background-color: #acd7ef;
+	background-color: none;
 	background-image: url('../assets/20snack.png');
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -347,6 +349,7 @@ body {
 	height: 50%;
 	margin-bottom: 10%;
 	background-position: center center;
+
 }
 
 .title {
@@ -405,14 +408,17 @@ body {
 
 .img-chia {
 	background-image: url('../assets/chia.png');
+
 }
 
 .img-bollo {
 	background-image: url('../assets/bollo.png');
+
 }
 
 .img-sem {
 	background-image: url('../assets/semita.png');
+
 }
 
 
@@ -447,7 +453,7 @@ body {
 	font-size: 1rem;
 	line-height: 1rem;
 	font-weight: 600;
-	font-color: #000;
+	color: #000;
 	background-image: url('../assets/hover-menu.svg');
 	background-repeat: no-repeat;
 	width: 342px;
@@ -509,14 +515,32 @@ body {
 
 .barsLink {
 	grid-area: barsLink;
-	background-color: white;
+	background-color: none;
 	background-image: url('../assets/bars-full.png');
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: top center;
 }
 
+/* Animations */
 
+.scale:hover {
+	transform: scale(1.1);
+	transition: all 200ms ease-in-out;
+}
+
+.icon:hover {
+	filter: invert(0.4) sepia(0.5) saturate(20) hue-rotate(324deg) brightness(1.03);
+	transition: all 100ms ease-in-out;
+
+}
+
+input:focus {
+    outline: none !important;
+    border:1px solid white;
+    color: white !important;
+	background-image: url('../assets/input-focus.svg')!important;
+}
 
 
 @media only screen and (max-width: 1024px) {
