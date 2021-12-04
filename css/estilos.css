@@ -447,7 +447,7 @@ body {
 	font-size: 1rem;
 	line-height: 1rem;
 	font-weight: 600;
-	font-color: #000;
+	color: #000;
 	background-image: url('../assets/hover-menu.svg');
 	background-repeat: no-repeat;
 	width: 342px;
