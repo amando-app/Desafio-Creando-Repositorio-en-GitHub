@@ -156,9 +156,7 @@ body {
 	right: 20px;
 	top: 10px;
 	cursor: pointer;
-}
-
-
+}	
 
 
 .btn-menu {
@@ -349,7 +347,6 @@ body {
 	height: 50%;
 	margin-bottom: 10%;
 	background-position: center center;
-
 }
 
 .title {
@@ -408,17 +405,14 @@ body {
 
 .img-chia {
 	background-image: url('../assets/chia.png');
-
 }
 
 .img-bollo {
 	background-image: url('../assets/bollo.png');
-
 }
 
 .img-sem {
 	background-image: url('../assets/semita.png');
-
 }
 
 
@@ -453,7 +447,7 @@ body {
 	font-size: 1rem;
 	line-height: 1rem;
 	font-weight: 600;
-	color: #000;
+	font-color: #000;
 	background-image: url('../assets/hover-menu.svg');
 	background-repeat: no-repeat;
 	width: 342px;
@@ -486,11 +480,12 @@ body {
 
 .snackLink {
 	grid-area: snack;
-	background-color: #acd7ef;
-	background-image: url('../assets/20snack.png');
+	background-color: none;
+	background-image: url('../assets/bar-side.png');
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: center center;
+	background-position-x: -800px;
+	transition: all 600ms ease-in-out;
 }
 
 
@@ -522,6 +517,7 @@ body {
 	background-position: top center;
 }
 
+
 /* Animations */
 
 .scale:hover {
@@ -541,6 +537,13 @@ input:focus {
     color: white !important;
 	background-image: url('../assets/input-focus.svg')!important;
 }
+
+.snackLink:hover {
+	background-position-x: 0px;
+	transition: all 600ms ease-in-out;
+	}
+
+
 
 
 @media only screen and (max-width: 1024px) {
@@ -658,6 +661,7 @@ input:focus {
 	}
 
 }
+
 
 
 @media only screen and (max-width: 375px) {
