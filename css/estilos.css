@@ -8,7 +8,7 @@
 
 
 
-/*Generales*/
+/*Antes de Boostrap
 
 
 *{
@@ -24,7 +24,7 @@ body {
 
 }
 
-/*Estilos Header*/
+/*Estilos Header
 
 
 .header {
@@ -32,7 +32,7 @@ body {
 	position: fixed;
 	top: 24px;
 	
-}
+} 
 
 .container {
 	max-width: 100%;
@@ -87,7 +87,7 @@ body {
 }
 
 
-/*Barra Lateral*/
+/*Barra Lateral
 
 #btn-menu {
 	display:none ;
@@ -166,7 +166,7 @@ body {
 
 /* Sections */ 
 
-/* Snackbox - Index */ 
+/* Snackbox - Index  
 
 .sectionSnackBox {
 	display: grid;
@@ -195,7 +195,7 @@ body {
 	background-position: center center;
 }
 
-/* Products - Index */ 
+/* Products - Index 
 
 .sectionProducts {
 	display: grid;
@@ -227,7 +227,7 @@ body {
 
 }
 
-/* Snackbars - Index */ 
+/* Snackbars - Index *
 
 .sectionBars {
 	display: grid;
@@ -257,7 +257,7 @@ body {
 	background-position: center center;
 }
 
-/* Form - Index */ 
+/* Form - Index *
 
 .sectionForm {
 	display: grid;
@@ -286,7 +286,7 @@ body {
 
 }
 
-/* Footer - Index */ 
+/* Footer - Index *
 
 .footer {
 	display: flex;
@@ -306,7 +306,7 @@ body {
 	font-weight: 400;
 }
 
-/* Classes Style */ 
+/* Classes Style *
 
 .btn {
 	font-size: 1rem;
@@ -379,7 +379,7 @@ body {
 	font-style: italic;
 }
 
-/* subClasses Style */ 
+/* subClasses Style *
 
 .btn-form {
 
@@ -456,7 +456,7 @@ body {
 
 }
 
-/* Snackbox - Link */ 
+/* Snackbox - Link * 
 
 .sectionSnackBoxLink {
 	display: grid;
@@ -517,7 +517,7 @@ body {
 
 
 
-/* Animations */
+/* Animations *
 
 .scale:hover {
 	transform: scale(1.1);
