@@ -252,7 +252,7 @@ body {
 
 .bars {
 	grid-area: bars;
-	background-color: white;
+	background-color: none;
 	background-image: url('../assets/bars.png');
 	background-repeat: no-repeat;
 	background-size: contain;
