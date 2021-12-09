@@ -1,8 +1,40 @@
 /*Fonts*/
 
+@font-face {font-family: "Moderat";
+  src: url('../css/fonts/moderat/black.ttf');
+font-weight:black;
+}
+
+@font-face {font-family: "Moderat";
+  src: url('../css/fonts/moderat/bold.ttf');
+font-weight:bold;
+}
+
+@font-face {font-family: "Moderat";
+  src: url('../css/fonts/moderat/medium.ttf');
+font-weight:medium;
+}
+
+@font-face {font-family: "Moderat";
+  src: url('../css/fonts/moderat/regular.ttf');
+font-weight:regular;
+}
+
+@font-face {font-family: "Moderat";
+  src: url('../css/fonts/moderat/thin.ttf');
+font-weight:thin;
+}
+
+@font-face {font-family: "Moderat";
+  src: url('../css/fonts/moderat/light.ttf');
+	font-weight:light;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
+body {
+	font-family: 'Heebo', sans-serif;
+}
 
 /*Antes de Boostrap
 

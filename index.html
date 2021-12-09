@@ -12,19 +12,19 @@
     <title>Konsulta</title>
   </head>
   <body>
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light fs-2">
   <div class="container-fluid">
-    <a class="navbar-brand d-sm-none d-md-block" href="#">
+    <a class="navbar-brand d-none d-md-block" href="#">
       <img src="assets/logo.svg" alt="logo" width="240" height="80">
     </a>
     <a class= "navbar-icon d-block d-md-none" href="#"><img src="assets/logo-icon.svg" alt="logo icon" width="80" height="80"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02 fs-2">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Diagnóstico</a>
@@ -36,7 +36,7 @@
           <a class="nav-link" href="#">Herramientas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Nuestra filosofía</a>
+          <a class="nav-link" href="links/filosofia.html">Nuestra filosofía</a>
         </li> 
       </ul>
     </div>
@@ -44,15 +44,20 @@
 </nav>
     
 
-<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+<div class="offcanvas offcanvas-top fs-2" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
   <div class="offcanvas-header">
-    <a class="navbar-brand" href="#">Navbar</a>
+     <a class="navbar-brand d-none d-md-block" href="#">
+      <img src="assets/logo.svg" alt="logo" width="240" height="80">
+    </a>
+     <a class= "navbar-icon d-block d-md-none" href="#"><img src="assets/logo-icon.svg" alt="logo icon" width="80" height="80">
+     </a>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
+
   <div class="offcanvas-body">
  	<ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Diagnóstico</a>
@@ -64,12 +69,93 @@
           <a class="nav-link" href="#">Herramientas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Nuestra filosofía</a>
+          <a class="nav-link" href="links/filosofia.html">Nuestra filosofía</a>
         </li> 
      </ul>
   </div>
 </div>
 
+<div class="container-fluid mt-5">
+	<div class="row d-flex align-items-center">
+		 <div class="col ms-5">
+		      <p class="h1">Un app con
+          todo lo que necesitas para cuidar tu negocio
+          </p>
+          <p class="fs-3">Diagnóstico, consultas y herramientas.</p>
+          <a class="btn btn-primary rounded-pill fs-3" href="#" role="button">¿Cuánto cuesta?</a>
+		  </div>
+
+		  <div class="col ms-5">
+		      <img src="assets/img-movil.svg" alt="img movil"  height="500">
+		  </div>
+	</div>
+</div>
+
+<div class="container-fluid mt-5">
+	<div class="d-flex flex-wrap">
+		 <div class="col">
+		 	<img src="assets/reforma.svg" alt="img movil"  height="56">
+		 </div>
+
+		 <div class="col">
+		 	<img src="assets/forbes.svg" alt="img movil"  height="56">
+		 </div>
+		 <div class="col d-none d-lg-block">
+		 	<img src="assets/economista.svg" alt="img movil"  height="56">
+		 </div>
+		 
+		 <div class="col d-none d-xl-block ">
+		 	<img src="assets/teccrunch.svg" alt="img movil"  height="56">
+		 </div>
+	</div>
+</div>
+
+<div class="container-fluid d-flex justify-content-center">
+	<p class="h1 m-5">Lo más importante es que tu negocio sea negocio</p>
+</div>
+
+<div class="container">
+
+  <div class="row fs-2">
+    <div class="col-lg">
+    	<div class="d-flex">
+    		<img src="assets/diagnostico.png" alt="diagnostico" height="134">
+        <a class="nav-link" href="#">Diagnóstico</a>
+    	</div>
+
+    	<p >Diagnósticamos a partir de lo que le duele a tu negocio y te dirigimos con un especialista para una consulta.
+    	</p>
+    </div>
+    <div class="col-lg">
+    	<div class="d-flex">
+    		<img src="assets/consultas.png" alt="consultas" height="134">
+        <a class="nav-link" href="#">Consultas</a>
+    	</div>
+
+    	<p >Te daremos expertos recomendados para que vean el tratamiento adecuado para tu negocio.
+    	</p>
+    </div>
+
+    <div class="col-lg">
+    	<div class="d-flex">
+    		<img src="assets/herramientas.png" alt="herramientas" height="134">
+        <a class="nav-link " href="#">Herramientas</a>
+    	</div>
+
+    	<p>No solo te damos la receta sino además los medicamentos para tu tratamiento.
+    	</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+	<div class="d-flex flex-row bd-highlight mb-3 justify-content-evenly fs-1">
+  <div class="p-2 bd-highlight ">Facebook</div>
+  <div class="p-2 bd-highlight ">Instagram</div>
+  <div class="p-2 bd-highlight ">LinkedIn</div>
+</div>
+
+</footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
