@@ -1,0 +1,157 @@
+body {
+	font-family: 'Moderat', sans-serif;
+	font-weight: 300;
+	color: $color1st;
+	font-size: 1rem;
+}
+
+.h1 {
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+.h2 {
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+.h3 {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.navbar-light {
+
+	.navbar-toggler {
+		    color: $color1st;
+    		border-color: $color4th;
+
+    		.navbar-toggler-icon {
+    			background-image: url('../assets/burger-menu.svg');
+
+    		}
+    }
+
+    .navbar-nav {
+	font-weight: 500;
+	cursor: pointer;
+	color:$color2nd;
+
+		.nav-link {
+		color: $color2nd;
+
+			&.active {
+			color: $color1st;
+			}
+
+			&:hover {
+				color: $color1st;
+			}
+		}
+	}
+	
+}
+
+.offcanvas-top {
+	height: 100vh;
+}
+
+.offcanvas-body {
+
+	.navbar-nav {
+	font-weight: 600;
+	cursor: pointer;
+	color:$color2nd;
+
+		.nav-link {
+		color: $color2nd;
+
+			&.active {
+			color: $color1st;
+			}
+
+			&:hover {
+				color: $color1st;
+			}
+		}
+	}
+
+}
+
+
+.btn-primary { 
+
+	color: $color1st;
+    background-color: white;
+    border-color: $color1st;
+
+    &:hover {
+    	background-color:$color1st;
+    	border:solid 2px $color5th;
+    	box-sizing: border-box;
+    }
+
+}
+
+.btn-close {
+	background-image: url('../assets/close.svg');
+	opacity: 1;
+
+	}
+
+.section1 {
+
+	.round-bgr {
+		background-color: $color1st;
+		color: white;
+		border-radius: 2rem;
+
+
+		.section1-img {
+
+			.img-movil {
+				position: relative;
+				z-index: 3;
+				left:5rem;
+				top: 5rem;
+			}
+			
+
+		}
+
+	}
+}
+
+.section4 {
+
+
+			.nav-link {
+		color: $color1st;
+
+			&:hover {
+			color: $color2nd;
+			}
+		}
+}
+
+.rounded {
+    border-radius: 1.25rem!important;
+
+}
+
+.border {
+    border: 2px solid $color3rd !important;
+}
+
+footer {
+
+	background-color: $color4th;
+	height: 4rem;
+
+}
+
+.row {
+    --bs-gutter-x: -6.5rem;
+
+   }
+

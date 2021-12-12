@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/* line 1, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+body {
+  font-family: 'Moderat', sans-serif;
+  font-weight: 300;
+  color: #1B3C87;
+  font-size: 1rem;
+}
+
+/* line 8, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* line 13, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+/* line 18, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* line 25, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.navbar-light .navbar-toggler {
+  color: #1B3C87;
+  border-color: #D7E0FF;
+}
+
+/* line 29, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.navbar-light .navbar-toggler .navbar-toggler-icon {
+  background-image: url("../assets/burger-menu.svg");
+}
+
+/* line 35, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.navbar-light .navbar-nav {
+  font-weight: 500;
+  cursor: pointer;
+  color: #8088DC;
+}
+
+/* line 40, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.navbar-light .navbar-nav .nav-link {
+  color: #8088DC;
+}
+
+/* line 43, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.navbar-light .navbar-nav .nav-link.active {
+  color: #1B3C87;
+}
+
+/* line 47, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #1B3C87;
+}
+
+/* line 55, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.offcanvas-top {
+  height: 100vh;
+}
+
+/* line 61, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.offcanvas-body .navbar-nav {
+  font-weight: 600;
+  cursor: pointer;
+  color: #8088DC;
+}
+
+/* line 66, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.offcanvas-body .navbar-nav .nav-link {
+  color: #8088DC;
+}
+
+/* line 69, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.offcanvas-body .navbar-nav .nav-link.active {
+  color: #1B3C87;
+}
+
+/* line 73, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.offcanvas-body .navbar-nav .nav-link:hover {
+  color: #1B3C87;
+}
+
+/* line 82, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.btn-primary {
+  color: #1B3C87;
+  background-color: white;
+  border-color: #1B3C87;
+}
+
+/* line 88, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.btn-primary:hover {
+  background-color: #1B3C87;
+  border: solid 2px #F4F7FF;
+  box-sizing: border-box;
+}
+
+/* line 96, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.btn-close {
+  background-image: url("../assets/close.svg");
+  opacity: 1;
+}
+
+/* line 104, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.section1 .round-bgr {
+  background-color: #1B3C87;
+  color: white;
+  border-radius: 2rem;
+}
+
+/* line 112, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.section1 .round-bgr .section1-img .img-movil {
+  position: relative;
+  z-index: 3;
+  left: 5rem;
+  top: 5rem;
+}
+
+/* line 128, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.section4 .nav-link {
+  color: #1B3C87;
+}
+
+/* line 131, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.section4 .nav-link:hover {
+  color: #8088DC;
+}
+
+/* line 137, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.rounded {
+  border-radius: 1.25rem !important;
+}
+
+/* line 142, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.border {
+  border: 2px solid #B2C3FB !important;
+}
+
+/* line 146, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+footer {
+  background-color: #D7E0FF;
+  height: 4rem;
+}
+
+/* line 153, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.row {
+  --bs-gutter-x: -6.5rem;
+}
+
+/*Fonts*/
+@font-face {
+  font-family: "Moderat";
+  src: url("../css/fonts/moderat/black.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Moderat";
+  src: url("../css/fonts/moderat/bold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Moderat";
+  src: url("../css/fonts/moderat/medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Moderat";
+  src: url("../css/fonts/moderat/regular.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Moderat";
+  src: url("../css/fonts/moderat/thin.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Moderat";
+  src: url("../css/fonts/moderat/light.ttf");
+  font-weight: 100;
+}
+
+/*# sourceMappingURL=style.css.map */

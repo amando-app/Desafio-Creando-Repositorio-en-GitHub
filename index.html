@@ -6,33 +6,42 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <title>Konsulta</title>
   </head>
   <body>
- <nav class="navbar navbar-expand-lg navbar-light bg-light fs-2">
-  <div class="container-fluid">
-    <a class="navbar-brand d-none d-md-block" href="#">
-      <img src="assets/logo.svg" alt="logo" width="240" height="80">
+
+ <!-- Navbar Expand-->   
+ <nav class="navbar navbar-expand-lg navbar-light  fs-6">
+  <div class="container-fluid align-items-end ">
+
+    <!-- Navbar Logo-->  
+    <a class="navbar-brand d-none d-md-block ms-5" href="#">
+      <img src="assets/logo.svg" alt="logo" height="60">
     </a>
-    <a class= "navbar-icon d-block d-md-none" href="#"><img src="assets/logo-icon.svg" alt="logo icon" width="80" height="80"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" aria-expanded="false" aria-label="Toggle navigation">
+    <a class= "navbar-icon d-block d-md-none" href="#"><img src="assets/logo-icon.svg" alt="logo icon" height="60"></a>
+
+    <!-- Navbar Logo-->  
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"
+      aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02 fs-2">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+    <!-- Navbar List-->  
+    <div class="collapse navbar-collapse justify-content-end me-5" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mb-0 mb-lg-0 ">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Diagnóstico</a>
+          <a class="nav-link" href="links/diagnostico.html">Diagnóstico</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Consulta</a>
+          <a class="nav-link" href="links/consulta.html">Consulta</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Herramientas</a>
+          <a class="nav-link" href="links/herramientas.html">Herramientas</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="links/filosofia.html">Nuestra filosofía</a>
@@ -42,19 +51,19 @@
   </div>
 </nav>
     
-
-<div class="offcanvas offcanvas-top fs-2" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
-  <div class="offcanvas-header">
-     <a class="navbar-brand d-none d-md-block" href="#">
-      <img src="assets/logo.svg" alt="logo" width="240" height="80">
+<!-- Offcanvas-->  
+<div class="offcanvas offcanvas-top fs-2" data-bs-scroll="true" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header ms-5">
+    <a class="navbar-brand d-none d-md-block" href="#">
+    <img src="assets/logo.svg" alt="logo" height="60">
     </a>
-     <a class= "navbar-icon d-block d-md-none" href="#"><img src="assets/logo-icon.svg" alt="logo icon" width="80" height="80">
-     </a>
+    <a class= "navbar-icon d-block d-md-none" href="#"><img src="assets/logo-icon.svg" alt="logo icon"  height="60"></a>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
 
-  <div class="offcanvas-body">
- 	<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  <!-- Navbar List -->  
+  <div class="offcanvas-body ms-5">
+ 	  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
         </li>
@@ -70,88 +79,98 @@
         <li class="nav-item">
           <a class="nav-link" href="links/filosofia.html">Nuestra filosofía</a>
         </li> 
-     </ul>
+    </ul>
   </div>
 </div>
 
-<div class="container-fluid mt-5">
-	<div class="row d-flex align-items-center">
-		 <div class="col ms-5">
-		      <p class="h1">Un app con
+<!-- Section 1 --> 
+<div class="container-fluid mt-5 section1 mb-5">
+	<div class="d-flex flex-lg-row flex-sm-column round-bgr  mx-5 my-5 p-5 align-items-center justify-content-md-center text-lg-start
+      text-sm-center">
+		 <div class="col ms-5 section1-text">
+		      <p class="h1 mb-3">Un app con
           todo lo que necesitas para cuidar tu negocio
           </p>
-          <p class="fs-3">Diagnóstico, consultas y herramientas.</p>
-          <a class="btn btn-primary rounded-pill fs-3" href="#" role="button">¿Cuánto cuesta?</a>
+          <p class="h2 mb-4">Diagnóstico, consultas y herramientas.</p>
+          <a class="btn btn-primary rounded-pill p-3 fs-5 mt-3" href="#" role="button">¿Cuánto cuesta?</a>
 		  </div>
 
-		  <div class="col ms-5">
-		      <img src="assets/img-movil.svg" alt="img movil"  height="500">
+		  <div class="col section1-img">
+		      <img class="img-movil" src="assets/img-movil.svg" alt="img movil"  height="500">
 		  </div>
 	</div>
 </div>
 
-<div class="container-fluid mt-5">
-	<div class="d-flex flex-wrap">
-		 <div class="col">
-		 	<img src="assets/reforma.svg" alt="img movil"  height="56">
+<!-- Section 2 --> 
+<div class="container-fluid my-5 section2">
+	<div class="d-flex flex-wrap mx-5 justify-content-around">
+		 <div class="col ">
+		 	<img src="assets/reforma.svg" alt="reforma"  height="56">
 		 </div>
 
-		 <div class="col">
-		 	<img src="assets/forbes.svg" alt="img movil"  height="56">
+		 <div class="col ">
+		 	<img src="assets/forbes.svg" alt="forbes"  height="56">
 		 </div>
+
 		 <div class="col d-none d-lg-block">
-		 	<img src="assets/economista.svg" alt="img movil"  height="56">
+		 	<img src="assets/economista.svg" alt="el economista"  height="56">
 		 </div>
 		 
 		 <div class="col d-none d-xl-block ">
-		 	<img src="assets/teccrunch.svg" alt="img movil"  height="56">
+		 	<img src="assets/teccrunch.svg" alt="tec crunch"  height="56">
 		 </div>
 	</div>
 </div>
 
-<div class="container-fluid d-flex justify-content-center">
+<!-- Section 3 --> 
+<div class="container-fluid d-flex justify-content-center text-center">
 	<p class="h1 m-5">Lo más importante es que tu negocio sea negocio</p>
 </div>
 
-<div class="container">
-
-  <div class="row fs-2">
-    <div class="col-lg">
-    	<div class="d-flex">
-    		<img src="assets/diagnostico.png" alt="diagnostico" height="134">
-        <a class="nav-link" href="#">Diagnóstico</a>
+<!-- Section 4 --> 
+<div class="container-fluid section4">
+  <div class="row d-flex justify-content-center d-grid gap-5">
+    <div class="col-12 col-xl-3 border border-3 rounded p-3  ">
+    	<div class="d-flex ">
+    		<img src="assets/diagnostico.svg" alt="diagnostico" height="64">
+        <a class="nav-link h3" href="#">Diagnóstico</a>
     	</div>
-
-    	<p >Diagnósticamos a partir de lo que le duele a tu negocio y te dirigimos con un especialista para una consulta.
-    	</p>
-    </div>
-    <div class="col-lg">
-    	<div class="d-flex">
-    		<img src="assets/consultas.png" alt="consultas" height="134">
-        <a class="nav-link" href="#">Consultas</a>
-    	</div>
-
-    	<p >Te daremos expertos recomendados para que vean el tratamiento adecuado para tu negocio.
-    	</p>
+      <p >Diagnósticamos a partir de lo que le duele a tu negocio y te dirigimos con un especialista para una consulta.</p>
     </div>
 
-    <div class="col-lg">
+    <div class="col-12 col-xl-3  border border-3 rounded  p-3 ">
     	<div class="d-flex">
-    		<img src="assets/herramientas.png" alt="herramientas" height="134">
-        <a class="nav-link " href="#">Herramientas</a>
+    		<img src="assets/consultas.svg" alt="consultas" height="64">
+        <a class="nav-link h3" href="#">Consultas</a>
     	</div>
 
-    	<p>No solo te damos la receta sino además los medicamentos para tu tratamiento.
-    	</p>
+    	<p >Te daremos expertos recomendados para que vean el tratamiento adecuado para tu negocio.</p>
+    </div>
+
+    <div class="col-12 col-xl-3  border border-3 rounded p-3 ">
+    	<div class="d-flex">
+    		<img src="assets/herramientas.svg" alt="herramientas" height="64">
+        <a class="nav-link h3 " href="#">Herramientas</a>
+    	</div>
+      <p>No solo te damos la receta sino además los medicamentos para tu tratamiento.</p>
     </div>
   </div>
 </div>
 
+<!-- Footer --> 
 <footer>
-	<div class="d-flex flex-row bd-highlight mb-3 justify-content-evenly fs-1">
-  <div class="p-2 bd-highlight ">Facebook</div>
-  <div class="p-2 bd-highlight ">Instagram</div>
-  <div class="p-2 bd-highlight ">LinkedIn</div>
+	<div class=" container justify-content-center my-5 align-items-center">
+  <div class="row">
+    <div class="col p-3">
+      <a href="#"><img class="mx-auto d-block" src="assets/github.svg" alt="github" height="36"></a>
+    </div>
+    <div class="col p-3">
+      <a href="#"><img class="mx-auto d-block" src="assets/figma.svg" alt="figma" height="36"></a>
+    </div>
+    <div class="col p-3">
+      <a href="#"><img class="mx-auto d-block" src="assets/linkedin.svg" alt="linkedin" height="36"></a>
+    </div>
+  </div>
 </div>
 
 </footer>
