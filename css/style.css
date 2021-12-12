@@ -151,6 +151,12 @@ footer {
   --bs-gutter-x: -6.5rem;
 }
 
+/* line 158, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.scale:hover {
+  transform: scale(1.1);
+  transition: all 200ms ease-in-out;
+}
+
 /*Fonts*/
 @font-face {
   font-family: "Moderat";
