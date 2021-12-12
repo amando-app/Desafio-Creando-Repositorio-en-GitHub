@@ -8,16 +8,29 @@ body {
 .h1 {
 	font-size: 3rem;
 	font-weight: 700;
+
+	@media all and (max-width: 576px) {
+		font-size: 2rem;
+	}
+
 }
 
 .h2 {
 	font-size: 1.5rem;
 	font-weight: 300;
+
+	@media all and (max-width: 576px) {
+		font-size: 1.25rem;
+	}
 }
 
 .h3 {
 	font-size: 1.5rem;
 	font-weight: 600;
+
+	@media all and (max-width: 576px) {
+		font-size: 1.25rem;
+	}
 }
 
 .navbar-light {
@@ -130,6 +143,12 @@ body {
 				z-index: 3;
 				left:5rem;
 				top: 5rem;
+
+				@media all and (max-width: 576px) {
+					height: 350px;
+					left:2rem;
+					top: 5rem;
+				}
 			}
 			
 
@@ -138,17 +157,29 @@ body {
 	}
 }
 
+.section2-index {
+	margin-top: 10rem;
+}
+
 .section4-index {
 
 
 
-			.nav-link {
+		.nav-link {
 		color: $color1st;
 
 			&:hover {
 			color: $color2nd;
 			}
 		}
+
+		.section4-img {
+			@media all and (max-width: 422px) {
+					height: 32px;
+				}
+
+		}
+
 }
 
 .rounded {
@@ -240,9 +271,4 @@ footer {
 		border-radius: 2rem;
 
 	}
-}
-
-.figma {
-	width: 90vw;
-	height: 100vh;
 }
