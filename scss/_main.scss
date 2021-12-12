@@ -174,7 +174,7 @@ footer {
 
 .scale:hover {
 	transform: scale(1.1);
-	transition: all 200ms ease-in-out;
+	transition: all 300ms ease-in-out;
 }
 
 
@@ -221,4 +221,28 @@ footer {
 		border: 1px solid $color1st;
 
 	}
+}
+
+.changeColor {
+	&:hover {
+		color: white;
+		background-color:$color1st;
+		transition: all 300ms ease-in-out;
+
+	}
+}
+
+.section1-consul {
+
+	.round-bgr {
+		background-color: $color1st;
+		color: $color5th;
+		border-radius: 2rem;
+
+	}
+}
+
+.figma {
+	width: 90vw;
+	height: 100vh;
 }
