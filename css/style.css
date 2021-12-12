@@ -195,6 +195,20 @@ footer {
   border-radius: 2rem;
 }
 
+/* line 213, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.box {
+  background-color: #1B3C87;
+  height: 10rem;
+  width: 10rem;
+}
+
+/* line 218, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.box .box-btn {
+  background-color: white;
+  width: 100%;
+  border: 1px solid #1B3C87;
+}
+
 /*Fonts*/
 @font-face {
   font-family: "Moderat";
