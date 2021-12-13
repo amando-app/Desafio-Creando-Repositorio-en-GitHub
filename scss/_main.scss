@@ -48,7 +48,7 @@ body {
 .row {
     --bs-gutter-x: -6.5rem;
 
-   }
+}
 
 /* Nabvar */
 
@@ -148,7 +148,7 @@ body {
 	background-image: url('../assets/close.svg');
 	opacity: 1;
 
-	}
+}
 
 
 
@@ -182,10 +182,7 @@ body {
 					top: 5rem;
 				}
 			}
-			
-
 		}
-
 	}
 }
 
@@ -203,12 +200,13 @@ body {
 			&:hover {
 			color: $color2nd;
 			}
+
 		}
 
 		.section4-img {
 			@media all and (max-width: 422px) {
 					height: 32px;
-				}
+			}
 
 		}
 
@@ -312,6 +310,7 @@ footer {
 .section2-tools {
 
 	.box-btn {
+
 		&:hover {
 
 		background-color:#C4F1E9;
@@ -323,11 +322,7 @@ footer {
 		&:hover {
 			filter: brightness(130%) contrast(65%) hue-rotate(163deg) saturate(76%) sepia(100%) 
 		}
-	}
-
-
-
-
+	}	
 }
 
 .section3-tools {
