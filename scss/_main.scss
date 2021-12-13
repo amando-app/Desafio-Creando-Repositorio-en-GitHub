@@ -1,3 +1,5 @@
+/*Bootstrap*/
+
 body {
 	font-family: 'Moderat', sans-serif;
 	font-weight: 300;
@@ -33,6 +35,23 @@ body {
 	}
 }
 
+
+.rounded {
+    border-radius: 1.25rem!important;
+
+}
+
+.border {
+    border: 2px solid $color3rd !important;
+}
+
+.row {
+    --bs-gutter-x: -6.5rem;
+
+   }
+
+/* Nabvar */
+
 .navbar-light {
 
 	.navbar-toggler {
@@ -65,6 +84,8 @@ body {
 	
 }
 
+/* Offcanvas*/
+
 .offcanvas-top {
 	height: 100vh;
 }
@@ -91,6 +112,7 @@ body {
 
 }
 
+/*Main*/
 
 .btn-1 { 
 
@@ -127,6 +149,16 @@ body {
 	opacity: 1;
 
 	}
+
+
+
+.scale:hover {
+	transform: scale(1.1);
+	transition: all 300ms ease-in-out;
+}
+
+
+/*Index*/
 
 .section1-index {
 
@@ -182,14 +214,7 @@ body {
 
 }
 
-.rounded {
-    border-radius: 1.25rem!important;
 
-}
-
-.border {
-    border: 2px solid $color3rd !important;
-}
 
 footer {
 
@@ -198,17 +223,10 @@ footer {
 
 }
 
-.row {
-    --bs-gutter-x: -6.5rem;
-
-   }
-
-.scale:hover {
-	transform: scale(1.1);
-	transition: all 300ms ease-in-out;
-}
 
 
+
+/*Diagnostico*/
 
 .section1-diag {
 
@@ -224,6 +242,12 @@ footer {
 				z-index: 3;
 				left:5rem;
 				top: 5rem;
+
+				@media all and (max-width: 576px) {
+					height: 250px;
+					left:2rem;
+					top: 5rem;
+				}
 			}
 			
 
@@ -231,6 +255,14 @@ footer {
 
 	}
 }
+
+.section2-diag {
+	margin-top: 8rem;
+	margin-bottom: 5rem;
+}
+
+
+/* Filosofia*/
 
 .section2-filo {
 
@@ -262,6 +294,8 @@ footer {
 
 	}
 }
+
+/*Consultoria*/
 
 .section1-consul {
 
