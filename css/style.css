@@ -288,6 +288,29 @@ footer {
   border-radius: 2rem;
 }
 
+/*Herramientas*/
+/* line 315, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.section2-tools .box-btn:hover {
+  background-color: #C4F1E9;
+  transition: all 300ms ease-in-out;
+}
+
+/* line 323, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.section2-tools img:hover {
+  filter: brightness(130%) contrast(65%) hue-rotate(163deg) saturate(76%) sepia(100%);
+}
+
+/* line 336, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.section3-tools .box-btn:hover {
+  background-color: #C4F1E9;
+  transition: all 300ms ease-in-out;
+}
+
+/* line 344, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.section3-tools img:hover {
+  filter: brightness(130%) contrast(65%) hue-rotate(163deg) saturate(76%) sepia(100%);
+}
+
 /*Fonts*/
 @font-face {
   font-family: "Moderat";
