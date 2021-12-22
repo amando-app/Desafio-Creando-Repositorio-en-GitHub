@@ -1,3 +1,4 @@
+@import "tools";
 /*Bootstrap*/
 
 body {
@@ -9,7 +10,8 @@ body {
 
 .h1 {
 	font-size: 3rem;
-	font-weight: 700;
+	@extend .font-weight-black;
+	/*font-weight: 700;*/
 
 	@media all and (max-width: 576px) {
 		font-size: 2rem;
@@ -19,7 +21,8 @@ body {
 
 .h2 {
 	font-size: 1.5rem;
-	font-weight: 300;
+	@extend .font-weight-regular;
+	/*font-weight: 300;*/
 
 	@media all and (max-width: 576px) {
 		font-size: 1.25rem;
@@ -28,7 +31,7 @@ body {
 
 .h3 {
 	font-size: 1.5rem;
-	font-weight: 600;
+	font-weight: map-get($fontMap, bold);
 
 	@media all and (max-width: 576px) {
 		font-size: 1.25rem;
@@ -48,6 +51,10 @@ body {
 .row {
     --bs-gutter-x: -6.5rem;
 
+}
+
+.active {
+			color: $color1st;
 }
 
 /* Nabvar */
@@ -72,9 +79,11 @@ body {
 		.nav-link {
 		color: $color2nd;
 
-			&.active {
+
+			@extend .active;
+			/*&.active {
 			color: $color1st;
-			}
+			}*/
 
 			&:hover {
 				color: $color1st;
@@ -100,9 +109,11 @@ body {
 		.nav-link {
 		color: $color2nd;
 
-			&.active {
+
+			@extend .active;
+			/*&.active {
 			color: $color1st;
-			}
+			}*/
 
 			&:hover {
 				color: $color1st;
@@ -116,9 +127,11 @@ body {
 
 .btn-1 { 
 
+	@include btn($color1st,$color1st);
+	/*
 	color: $color1st;
     background-color: white;
-    border-color: $color1st;
+    border-color: $color1st;*/
 
     &:hover {
     	color: white;
@@ -130,10 +143,10 @@ body {
 }
 
 .btn-2 { 
-
-	color: white;
+	@include btn(white,$color1st,$color1st);
+	/*color: white;
     background-color: $color1st;
-    border-color: $color1st;
+    border-color: $color1st;*/
 
     &:hover {
     	color: $color1st;
@@ -156,6 +169,7 @@ body {
 	transform: scale(1.1);
 	transition: all 300ms ease-in-out;
 }
+
 
 
 /*Index*/

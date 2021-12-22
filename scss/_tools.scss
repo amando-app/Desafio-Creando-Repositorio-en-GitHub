@@ -1,7 +1,12 @@
-@mixin containerStyle ($border, $bgrColor: #FFFFFF, $marginTop, $marginBott) {
-	border: $border;
-	background-color: $bgrColor;
-	margin-top: $marginTop;
-	margin-bottom: $marginBott;
+@mixin btn($color,$border-color, $bgr-color: white) {
+	border-color: $border-color;
+	background-color: $bgr-color;
+	color:$color;
+}
 
+@each $k, $v in $fontMap{
+	.font-weight-#{$k}{
+		font-weight: $v;
+	}
+	
 }
