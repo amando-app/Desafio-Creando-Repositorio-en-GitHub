@@ -1,0 +1,7 @@
+@mixin containerStyle ($border, $bgrColor: #FFFFFF, $marginTop, $marginBott) {
+	border: $border;
+	background-color: $bgrColor;
+	margin-top: $marginTop;
+	margin-bottom: $marginBott;
+
+}

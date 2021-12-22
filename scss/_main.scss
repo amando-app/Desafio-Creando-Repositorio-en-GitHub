@@ -271,6 +271,38 @@ footer {
 	}
 }
 
+.section1-filo-img {
+
+			.img-talking {
+				position: relative;
+				z-index: 3;
+				left:0rem;
+				top: 5rem;
+
+				@media all and (max-width: 576px) {
+					height: 250px;
+					left:0rem;
+					top: 5rem;
+				}
+			}
+}
+
+.section2-filo-img {
+
+			.img-coffee {
+				position: relative;
+				z-index: 3;
+				left:0rem;
+				top: 0rem;
+
+				@media all and (max-width: 576px) {
+					height: 200px;
+					left:-5rem;
+					top: 0rem;
+				}
+			}
+}
+
 .box {
 	background-color: $color1st;
 	height: 10rem;
