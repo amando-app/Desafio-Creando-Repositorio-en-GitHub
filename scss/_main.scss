@@ -1,4 +1,5 @@
 @import "tools";
+
 /*Bootstrap*/
 
 body {
@@ -53,9 +54,6 @@ body {
 
 }
 
-.active {
-			color: $color1st;
-}
 
 /* Nabvar */
 
@@ -80,10 +78,9 @@ body {
 		color: $color2nd;
 
 
-			@extend .active;
-			/*&.active {
+			&.active {
 			color: $color1st;
-			}*/
+			}
 
 			&:hover {
 				color: $color1st;
@@ -110,10 +107,9 @@ body {
 		color: $color2nd;
 
 
-			@extend .active;
-			/*&.active {
+			&.active {
 			color: $color1st;
-			}*/
+			}
 
 			&:hover {
 				color: $color1st;
