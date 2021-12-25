@@ -4,6 +4,8 @@
    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Preveen problemas en tu negocio y ve si esta funcionando al 100%">
+    <meta name="keywords" content="prevención, diagnóstico, estudios, mipyme, asesoría, negocios, empresas, pymes">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 
@@ -11,146 +13,163 @@
   </head>
 <body>
 
- <!-- Navbar Expand-->   
-<nav class="navbar navbar-expand-lg navbar-light  fs-6">
-  <div class="container-fluid align-items-end ">
+    <!-- Navbar Expand-->   
+    <nav class="navbar navbar-expand-lg navbar-light  fs-6">
+      <div class="container-fluid align-items-end ">
 
-    <!-- Navbar Logo-->  
-    <a class="navbar-brand d-none d-md-block ms-5" href="#">
-      <img src="../assets/logo.svg" alt="logo" height="60">
-    </a>
-    <a class= "navbar-icon d-block d-md-none" href="#"><img src="../assets/logo-icon.svg" alt="logo icon" height="60"></a>
+        <!-- Navbar Logo-->  
+        <a class="navbar-brand d-none d-md-block ms-5" href="../index.html">
+          <img src="../assets/logo.svg" alt="logo" height="60">
+        </a>
+        <a class= "navbar-icon d-block d-md-none" href="../index.html"><img src="../assets/logo-icon.svg" alt="logo icon" height="60"></a>
 
-    <!-- Navbar Logo-->  
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+        <!-- Navbar Burger Menu-->  
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <!-- Navbar List-->  
-    <div class="collapse navbar-collapse justify-content-end me-5" id="navbarTogglerDemo02">
-      <ul class="navbar-nav mb-0 mb-lg-0 ">
-        <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="../links/diagnostico.html">Diagnóstico</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../links/consulta.html">Consulta</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../links/herramientas.html">Herramientas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../links/filosofia.html">Nuestra filosofía</a>
-        </li> 
-      </ul>
-    </div>
-  </div>
-</nav>
-    
-<!-- Offcanvas-->  
-<div class="offcanvas offcanvas-top fs-2" data-bs-scroll="true" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
-  <div class="offcanvas-header ms-5">
-    <a class="navbar-brand d-none d-md-block" href="#">
-    <img src="../assets/logo.svg" alt="logo" height="60">
-    </a>
-    <a class= "navbar-icon d-block d-md-none" href="#"><img src="../assets/logo-icon.svg" alt="logo icon"  height="60"></a>
-    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
+        <!-- Navbar List-->  
+        <div class="collapse navbar-collapse justify-content-end me-5" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mb-0 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../links/diagnostico.html">Diagnóstico</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../links/consulta.html">Consulta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../links/herramientas.html">Herramientas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../links/filosofia.html">Nuestra filosofía</a>
+            </li> 
+          </ul>
+        </div>
 
-  <!-- Navbar List -->  
-  <div class="offcanvas-body ms-5">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="../links/diagnostico.html">Diagnóstico</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../links/consulta.html">Consulta</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../links/herramientas.html">Herramientas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../links/filosofia.html">Nuestra filosofía</a>
-        </li> 
-    </ul>
-  </div>
-</div>
-
-<!-- Section 1 --> 
-<div class="container-fluid mt-5 section1-diag mb-5">
-  <div class="d-flex flex-lg-row  flex-column round-bgr  mx-3 mx-lg-5 my-2 my-lg-5 p-3 p-sm-5 align-items-center justify-content-md-center text-center text-lg-start">
-     <div class="col ms-0 ms-lg-5 section1-text">
-          <p class="h1 mb-3">Cuando tu negocio se enferma necesita el medicamento adecuado.
-          </p>
-          <p class="h2 mb-4">Hacemos un estudio para saber lo que hace sentir mal a tu negocio</p>
-          <a class="btn btn-1 rounded-pill p-3 fs-5 mt-3 border-2" href="#" role="button">Hacer estudio</a>
+      </div>
+    </nav>
+        
+    <!-- Offcanvas-->  
+    <div class="offcanvas offcanvas-top fs-2" data-bs-scroll="true" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+      <!-- Offcanvas Logo-->  
+      <div class="offcanvas-header ms-5">
+        <a class="navbar-brand d-none d-md-block" href="../index.html">
+          <img src="../assets/logo.svg" alt="logo" height="60">
+        </a>
+        <a class= "navbar-icon d-block d-md-none" href="../index.html">
+          <img src="../assets/logo-icon.svg" alt="logo icon"  height="60">
+        </a>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
 
-      <div class="col section1-diag-img">
-          <img class="img-medicine" src="../assets/medicinas.svg" alt="medicinas"  height="500">
+      <!-- Navbar List -->  
+      <div class="offcanvas-body ms-5">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../links/diagnostico.html">Diagnóstico</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../links/consulta.html">Consulta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../links/herramientas.html">Herramientas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../links/filosofia.html">Nuestra filosofía</a>
+          </li> 
+        </ul>
       </div>
-  </div>
-</div>
-
-<!-- Section 2 --> 
-<div class="container-fluid text-center section2-diag text-center">
-  <p class="h1">La salud de tu negocio: la inversión más importante</p>
-</div>
-
-
-<!-- Section 3 --> 
-
-<div class="container-fluid section3-diag">
-  <div class="row row-cols-md-2 g-5 justify-content-lg-center">
-    <div class="col-12 col-lg-5 p-3 d-flex flex-column rounded border me-0 me-md-5 changeColor">
-      <h3>Diagnóstico Mensual</h3>
-      <h1>$500.00</h1>
-      <p>Se analiza el negocio cada mes para darle seguimiento al tratamiento y enfermedades que haya padecido</p>
     </div>
-    <div class="col-12 col-lg-5 p-3 d-flex flex-column rounded border changeColor ">
-      <h3>%Conversión</h3>
-      <h1>$600.00</h1>
-      <p> Medimos el % de conversión en cada etapa de tu embudo con métricas claves en cada paso</p>
-    </div>
-    <div class="col-12 col-lg-5 p-3 d-flex flex-column rounded border me-0 me-md-5 changeColor">
-      <h3>Impacto</h3>
-      <h1>$250.00</h1>
-      <p>Analizamos si tus clientes estan comprometidos con tu marca y productos</p>
-    </div>
-    <div class="col-12 col-lg-5 p-3 d-flex flex-column rounded border changeColor">
-      <h3>Rentabilidad</h3>
-      <h1>$500.00</h1>
-      <p>Usamos diferentes métricas para medir al rentabilidad de tu negocio y que sea negocio</p>
-    </div>
-  </div>
-</div>
 
+    <!-- Section 1 --> 
+    <div class="container-fluid mt-5 section1-diag mb-5">
+      <div class="d-flex flex-lg-row  flex-column round-bgr  mx-3 mx-lg-5 my-2 my-lg-5 p-3 p-sm-5 align-items-center justify-content-md-center text-center text-lg-start">
 
+         <div class="col ms-0 ms-lg-5 section1-text">
+            <h1 class="h1 mb-3">Cuando tu negocio se enferma necesita el medicamento adecuado.
+            </h1>
+            <p class="h2 mb-4">Hacemos un estudio para saber lo que hace sentir mal a tu negocio</p>
+            <a class="btn btn-1 rounded-pill p-3 fs-5 mt-3 border-2" href="../links/consulta.html" role="button">Hacer estudio</a>
+          </div>
 
+          <div class="col section1-diag-img">
+            <img class="img-medicine" src="../assets/medicinas.svg" alt="medicinas"  height="500">
+          </div>
 
-
-<!-- Footer --> 
-<footer>
-  <div class=" container  my-5 ">
-    <div class="row">
-      <div class="col p-3">
-        <a href="https://github.com/amando-app/Desafio-Creando-Repositorio-en-GitHub" target="_blank"><img class="mx-auto d-block" src="../assets/github.svg" alt="github" height="36"></a>
       </div>
-      <div class="col p-3">
-        <a href="https://www.figma.com/file/BFfFuelKuD2hKhiy7vrgcy/Proyecto---Dise%C3%B1o-UI-%2FUX?node-id=410%3A622" target="_blank"><img class="mx-auto d-block" src="../assets/figma.svg" alt="figma" height="36"></a>
+    </div>
+
+    <!-- Section 2 --> 
+    <div class="container-fluid text-center section2-diag text-center">
+      <h1 class="h1">La salud de tu negocio: la inversión más importante</h1>
+    </div>
+
+
+    <!-- Section 3 --> 
+
+    <div class="container-fluid section3-diag">
+      <div class="row row-cols-md-2 g-5 justify-content-lg-center">
+
+        <div class="col-12 col-lg-5 p-3 d-flex flex-column rounded border me-0 me-md-5 changeColor">
+          <h3 class="h3">Diagnóstico Mensual</h3>
+          <span class="h1">$500.00</span>
+          <p>Se analiza el negocio cada mes para darle seguimiento al tratamiento y enfermedades que haya padecido</p>
+        </div>
+
+        <div class="col-12 col-lg-5 p-3 d-flex flex-column rounded border changeColor ">
+          <h2>%Conversión</h2>
+          <span class="h1">$600.00</span>
+          <p> Medimos el % de conversión en cada etapa de tu embudo con métricas claves en cada paso</p>
+        </div>
+
+        <div class="col-12 col-lg-5 p-3 d-flex flex-column rounded border me-0 me-md-5 changeColor">
+          <h2>Impacto</h2>
+          <span class="h1">$250.00</span>
+          <p>Analizamos si tus clientes estan comprometidos con tu marca y productos</p>
+        </div>
+
+        <div class="col-12 col-lg-5 p-3 d-flex flex-column rounded border changeColor">
+          <h2>Rentabilidad</h2>
+          <span class="h1">$500.00</span>
+          <p>Usamos diferentes métricas para medir al rentabilidad de tu negocio y que sea negocio</p>
+        </div>
+
       </div>
-      <div class="col p-3 d-none d-sm-block">
-        <a href="https://www.coderhouse.com.mx/" target="_blank"><img class=" m-auto d-block" src="../assets/coderhouse.svg" alt="coderhouse" height="28"></a>
+    </div>
+
+    <!-- Footer --> 
+    <footer>
+      <div class=" container  my-5 ">
+        <div class="row">
+
+          <div class="col p-3">
+            <a href="https://github.com/amando-app/Desafio-Creando-Repositorio-en-GitHub" target="_blank">
+              <img class="mx-auto d-block" src="../assets/github.svg" alt="github" height="36">
+            </a>
+          </div>
+
+          <div class="col p-3">
+            <a href="https://www.figma.com/file/BFfFuelKuD2hKhiy7vrgcy/Proyecto---Dise%C3%B1o-UI-%2FUX?node-id=410%3A622" target="_blank">
+              <img class="mx-auto d-block" src="../assets/figma.svg" alt="figma" height="36">
+            </a>
+          </div>
+
+          <div class="col p-3 d-none d-sm-block">
+            <a href="https://www.coderhouse.com.mx/" target="_blank">
+              <img class=" m-auto d-block" src="../assets/coderhouse.svg" alt="coderhouse" height="28">
+            </a>
+          </div>
+
+       </div>
       </div>
-   </div>
-  </div>
-</footer>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
