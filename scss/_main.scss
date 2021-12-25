@@ -4,7 +4,7 @@
 
 body {
 	font-family: 'Moderat', sans-serif;
-	font-weight: 300;
+	@extend .font-weight-regular;
 	color: $color1st;
 	font-size: 1rem;
 }
@@ -37,6 +37,18 @@ body {
 	@media all and (max-width: 576px) {
 		font-size: 1.25rem;
 	}
+}
+
+h1 {
+	@extend .h1;
+}
+
+h2 {
+	@extend .h2;
+}
+
+h3 {
+	@extend body;
 }
 
 
