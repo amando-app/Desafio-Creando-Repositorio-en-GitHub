@@ -1,4 +1,5 @@
 @import "tools";
+@import "variables";
 
 /*Bootstrap*/
 
@@ -61,24 +62,100 @@ h3 {
     border: 2px solid $color3rd !important;
 }
 
-.row {
-    --bs-gutter-x: -6.5rem;
+.form-control {
 
+		border: 2px solid $color3rd;
+        color: $color1st;
+        opacity: 1;
+
+        &:active {
+        	border:2px solid $color1st;
+			box-shadow: none;
+			color: $color2nd;
+        }
+
+        &:focus {
+        	border:2px solid $color1st;
+			box-shadow: none;
+			color: $color2nd;
+        }
+
+        &::placeholder {
+        	color: $color3rd;
+			opacity: 1;
+        }
+}
+
+
+button {
+
+	&:focus {
+		box-shadow: none;
+    }
+
+    &:active {
+    	box-shadow: none;
+    }
+}
+
+.form-check-input {
+
+	&:checked {
+	    background-color: $color1st;
+	    border-color: $color1st;
+	    box-shadow: none;
+	    outline: 0;
+	}
+
+	&:focus {
+    	box-shadow: none;
+    	outline: 0;	
+	}
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
 }
 
 
 /* Nabvar */
 
+.navbar-toggler {
+		    color: $color1st !important;
+		    border-color: black;
+    		border:2px solid;
+    		
+
+    		&:focus {
+    			box-shadow: none;
+    		}
+
+    		&:active {
+    			box-shadow: none;
+    		}
+}
+
 .navbar-light {
 
 	.navbar-toggler {
-		    color: $color1st;
-    		border-color: $color4th;
 
-    		.navbar-toggler-icon {
-    			background-image: url('../assets/burger-menu.svg');
+		color: $color1st !important;
+		border-color: black;
+		border:2px solid;
+		    		
 
-    		}
+		&:focus {
+		    box-shadow: none;
+		}
+
+		&:active {
+			box-shadow: none;
+		}
+				    
+    	.navbar-toggler-icon {
+    		background-image: url('../assets/burger-menu.svg');
+    	}
     }
 
     .navbar-nav {
@@ -137,10 +214,6 @@ h3 {
 .btn-1 { 
 
 	@include btn($color1st,$color1st);
-	/*
-	color: $color1st;
-    background-color: white;
-    border-color: $color1st;*/
 
     &:hover {
     	color: white;
@@ -153,9 +226,6 @@ h3 {
 
 .btn-2 { 
 	@include btn(white,$color1st,$color1st);
-	/*color: white;
-    background-color: $color1st;
-    border-color: $color1st;*/
 
     &:hover {
     	color: $color1st;
@@ -169,6 +239,14 @@ h3 {
 .btn-close {
 	background-image: url('../assets/close.svg');
 	opacity: 1;
+
+    		&:focus {
+    			box-shadow: none;
+    		}
+
+    		&:active {
+    			box-shadow: none;
+    		}
 
 }
 
@@ -209,13 +287,27 @@ h3 {
 	}
 }
 
+
+.modal-content {
+
+	.modal-header {
+		border-bottom: none;
+	}
+
+	.modal-footer {
+		border-top: none;
+	}
+}
+
 .section2-index {
 	margin-top: 10rem;
 }
 
 .section4-index {
 
-
+		.row {
+   		 --bs-gutter-x: -6.5rem;
+		}
 
 		.nav-link {
 		color: $color1st;
@@ -282,6 +374,12 @@ footer {
 	margin-bottom: 5rem;
 }
 
+.section3-diag {
+
+	.row {
+    --bs-gutter-x: -6.5rem;
+	}
+}
 
 /* Filosofia*/
 
