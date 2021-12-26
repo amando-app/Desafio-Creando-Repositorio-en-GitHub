@@ -58,7 +58,10 @@ h2 {
 }
 
 h3 {
-	@extend body;
+	@extend .font-weight-regular;
+	color: $color1st;
+	font-size: 1rem;
+	margin-bottom: 0;
 }
 
 
@@ -308,6 +311,8 @@ button {
 
 .modal-content {
 
+	border-radius: 1.5rem;
+
 	.modal-header {
 		border-bottom: none;
 	}
@@ -430,6 +435,32 @@ footer {
 	}
 }
 
+.section4-diag {
+
+	.round-bgr {
+		background-color: $color5th;
+		color: $color1st;
+		border-radius: 2rem;
+				
+	}
+
+	.section4-diag-img {
+
+			.img-pencil {
+				position: relative;
+				z-index: 3;
+				left:0rem;
+				top: 0rem;
+
+				@media all and (max-width: 576px) {
+					height: 250px;
+					left:0rem;
+					top: -4rem;
+				}
+			}
+	}
+}
+
 /* Filosofia*/
 
 .section2-filo {
@@ -488,7 +519,32 @@ footer {
 	}
 }
 
+.section4-filo {
 
+	.row {
+    --bs-gutter-x: -6.5rem;
+
+	}
+
+
+}
+
+
+.section5-filo {
+
+	.d-flex {
+		align-items: flex-start;
+	}
+
+	margin-top: 6rem;
+
+	.row {
+    --bs-gutter-x: -6.5rem;
+
+	}
+
+
+}
 
 /*Consultoria*/
 
