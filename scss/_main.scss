@@ -13,7 +13,6 @@ body {
 .h1 {
 	font-size: 3rem;
 	@extend .font-weight-black;
-	/*font-weight: 700;*/
 
 	@media all and (max-width: 576px) {
 		font-size: 2rem;
@@ -24,7 +23,7 @@ body {
 .h2 {
 	font-size: 1.5rem;
 	@extend .font-weight-regular;
-	/*font-weight: 300;*/
+	
 
 	@media all and (max-width: 576px) {
 		font-size: 1.25rem;
@@ -39,6 +38,16 @@ body {
 		font-size: 1.25rem;
 	}
 }
+
+.h4 {
+	font-size: 2rem;
+	@extend .font-weight-bold;
+
+	@media all and (max-width: 576px) {
+		font-size: 2rem;
+	}
+}
+
 
 h1 {
 	@extend .h1;
@@ -257,6 +266,15 @@ button {
 	transition: all 300ms ease-in-out;
 }
 
+.changeColor {
+	&:hover {
+		color: white;
+		background-color:$color1st;
+		transition: all 300ms ease-in-out;
+		border: 2px solid $color1st !important;
+
+	}
+}
 
 
 /*Index*/
@@ -294,6 +312,13 @@ button {
 		border-bottom: none;
 	}
 
+	.modal-body {
+
+		.form-label {
+			@extend .font-weight-medium;
+		}
+	}
+
 	.modal-footer {
 		border-top: none;
 	}
@@ -327,7 +352,31 @@ button {
 
 }
 
+.section5-index {
 
+	.round-bgr {
+		background-color: $color5th;
+		color: $color1st;
+		border-radius: 2rem;
+				
+	}
+
+	.section5-index-img {
+
+			.img-report {
+				position: relative;
+				z-index: 3;
+				left:4rem;
+				top: 0rem;
+
+				@media all and (max-width: 576px) {
+					height: 250px;
+					left:0rem;
+					top: 2rem;
+				}
+			}
+	}
+}
 
 footer {
 
@@ -390,6 +439,22 @@ footer {
 		color: $color1st;
 		border-radius: 2rem;		
 	}
+
+	.section2-filo-img {
+
+			.img-coffee {
+				position: relative;
+				z-index: 3;
+				left:0rem;
+				top: 0rem;
+
+				@media all and (max-width: 576px) {
+					height: 250px;
+					left:0rem;
+					top: 0rem;
+				}
+			}
+	}
 }
 
 .section1-filo-img {
@@ -408,21 +473,7 @@ footer {
 			}
 }
 
-.section2-filo-img {
 
-			.img-coffee {
-				position: relative;
-				z-index: 3;
-				left:0rem;
-				top: 0rem;
-
-				@media all and (max-width: 576px) {
-					height: 200px;
-					left:-5rem;
-					top: 0rem;
-				}
-			}
-}
 
 .box {
 	background-color: $color1st;
@@ -437,14 +488,7 @@ footer {
 	}
 }
 
-.changeColor {
-	&:hover {
-		color: white;
-		background-color:$color1st;
-		transition: all 300ms ease-in-out;
 
-	}
-}
 
 /*Consultoria*/
 
@@ -461,6 +505,10 @@ footer {
 /*Herramientas*/
 
 .section2-tools {
+
+	.row {
+   		 --bs-gutter-x: -6.5rem;
+		}
 
 	.box-btn {
 
@@ -480,6 +528,10 @@ footer {
 
 .section3-tools {
 
+	.row {
+   		 --bs-gutter-x: -6.5rem;
+	}
+
 	.box-btn {
 		&:hover {
 
@@ -495,3 +547,25 @@ footer {
 	}
 }
 
+.section5-tools {
+
+	.row {
+    --bs-gutter-x: -6.5rem;
+	}
+
+
+	.img-profile {
+				position: relative;
+				z-index: 3;
+				left:0rem;
+				top: 4rem;
+
+				@media all and (max-width: 576px) {
+					height: 100px;
+					left:0rem;
+					top: 3rem;
+				}
+	}
+
+
+}
