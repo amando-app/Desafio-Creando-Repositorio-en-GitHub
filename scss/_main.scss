@@ -58,12 +58,12 @@ h2 {
 }
 
 h3 {
-	@extend .font-weight-regular;
-	color: $color1st;
-	font-size: 1rem;
-	margin-bottom: 0;
+	@extend .h3;
 }
 
+h4 {
+	@extend .h4;
+}
 
 .rounded {
     border-radius: 1.25rem!important;
@@ -129,6 +129,55 @@ button {
     outline: 0;
     box-shadow: none;
 }
+
+
+.accordion {
+
+	.accordion-item {
+
+		border: 2px solid $color3rd;
+
+		&:last-of-type {
+			border-radius: 1rem;
+		}
+
+		&:first-of-type {
+			border-top-left-radius: 1rem;
+    		border-top-right-radius: 1rem;
+
+	    	.accordion-button {
+
+	    		color: $color1st;
+				border-top-left-radius: 1rem;
+		    	border-top-right-radius: 1rem;
+
+		    	&::after {
+		
+					background-image: url("../assets/arrow-down.svg");
+				}
+
+				&:not(.collapsed) {
+		    		color: $color1st;
+		   			background-color: white;
+		    		box-shadow: none;
+
+		    		&::after {
+						background-image: url("../assets/arrow-down.svg");
+						transform: rotate( -180deg);
+					}
+				}
+
+				&:focus {
+					border-color:none;
+					box-shadow:none;
+				}
+		
+			}
+
+		}
+	}
+}
+
 
 
 /* Nabvar */
@@ -275,6 +324,16 @@ button {
 		background-color:$color1st;
 		transition: all 300ms ease-in-out;
 		border: 2px solid $color1st !important;
+
+	}
+}
+
+.changeColorLight {
+	&:hover {
+		
+		background-color:$color5th;
+		transition: all 300ms ease-in-out;
+		border: 2px solid $color5th !important;
 
 	}
 }
