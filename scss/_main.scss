@@ -602,7 +602,11 @@ footer {
 
 	}
 
-
+	.img-economista {
+		@media all and (max-width: 495px) {
+					height: 24px;
+		}
+	}
 }
 
 /*Consultoria*/
@@ -614,6 +618,14 @@ footer {
 		color: $color5th;
 		border-radius: 2rem;
 
+	}
+}
+
+.section4-consul {
+	.h4 {
+		@media all and (max-width: 576px) {
+		font-size: 1.5rem;
+	}
 	}
 }
 
