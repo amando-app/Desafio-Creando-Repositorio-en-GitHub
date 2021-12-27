@@ -1,51 +1,13 @@
 @import "tools";
 @import "variables";
 
-/*Bootstrap*/
+/* ----------- Bootstrap ----------- */
 
 body {
 	font-family: 'Moderat', sans-serif;
 	@extend .font-weight-regular;
 	color: $color1st;
 	font-size: 1rem;
-}
-
-.h1 {
-	font-size: 3rem;
-	@extend .font-weight-black;
-
-	@media all and (max-width: 576px) {
-		font-size: 2rem;
-	}
-
-}
-
-.h2 {
-	font-size: 1.5rem;
-	@extend .font-weight-regular;
-	
-
-	@media all and (max-width: 576px) {
-		font-size: 1.25rem;
-	}
-}
-
-.h3 {
-	font-size: 1.5rem;
-	font-weight: map-get($fontMap, bold);
-
-	@media all and (max-width: 576px) {
-		font-size: 1.25rem;
-	}
-}
-
-.h4 {
-	font-size: 2rem;
-	@extend .font-weight-bold;
-
-	@media all and (max-width: 576px) {
-		font-size: 2rem;
-	}
 }
 
 
@@ -65,6 +27,7 @@ h4 {
 	@extend .h4;
 }
 
+
 .rounded {
     border-radius: 1.25rem!important;
 
@@ -73,6 +36,26 @@ h4 {
 .border {
     border: 2px solid $color3rd !important;
 }
+
+/* Buttons */
+
+button {
+
+	&:focus {
+		box-shadow: none;
+    }
+
+    &:active {
+    	box-shadow: none;
+    }
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+/* Forms */
 
 .form-control {
 
@@ -99,16 +82,6 @@ h4 {
 }
 
 
-button {
-
-	&:focus {
-		box-shadow: none;
-    }
-
-    &:active {
-    	box-shadow: none;
-    }
-}
 
 .form-check-input {
 
@@ -125,12 +98,9 @@ button {
 	}
 }
 
-.btn:focus {
-    outline: 0;
-    box-shadow: none;
-}
 
 
+/* Accordion */
 .accordion {
 
 	.accordion-item {
@@ -269,8 +239,74 @@ button {
 
 }
 
-/*Main*/
+/* Modal*/
 
+.modal-content {
+
+	border-radius: 1.5rem;
+
+	.modal-header {
+		border-bottom: none;
+	}
+
+	.modal-body {
+
+		.form-label {
+			@extend .font-weight-medium;
+		}
+	}
+
+	.modal-footer {
+		border-top: none;
+	}
+}
+
+footer {
+
+	background-color: $color4th;
+	height: 4rem;
+
+}
+
+/*-------- Main --------*/
+
+.h1 {
+	font-size: 3rem;
+	@extend .font-weight-black;
+
+	@media all and (max-width: 576px) {
+		font-size: 2rem;
+	}
+
+}
+
+.h2 {
+	font-size: 1.5rem;
+	@extend .font-weight-regular;
+	
+
+	@media all and (max-width: 576px) {
+		font-size: 1.25rem;
+	}
+}
+
+.h3 {
+	font-size: 1.5rem;
+	font-weight: map-get($fontMap, bold);
+
+	@media all and (max-width: 576px) {
+		font-size: 1.25rem;
+	}
+}
+
+.h4 {
+	font-size: 2rem;
+	@extend .font-weight-bold;
+
+	@media all and (max-width: 576px) {
+		font-size: 2rem;
+	}
+}
 
 .btn-1 { 
 
@@ -339,6 +375,19 @@ button {
 }
 
 
+.box {
+	background-color: $color1st;
+	height: 10rem;
+	width: 10rem;
+
+	.box-btn {
+		background-color:white;
+		width: 100%;
+		border: 1px solid $color1st;
+
+	}
+}
+
 /*Index*/
 
 .section1-index {
@@ -367,26 +416,6 @@ button {
 	}
 }
 
-
-.modal-content {
-
-	border-radius: 1.5rem;
-
-	.modal-header {
-		border-bottom: none;
-	}
-
-	.modal-body {
-
-		.form-label {
-			@extend .font-weight-medium;
-		}
-	}
-
-	.modal-footer {
-		border-top: none;
-	}
-}
 
 .section2-index {
 	margin-top: 10rem;
@@ -441,15 +470,6 @@ button {
 			}
 	}
 }
-
-footer {
-
-	background-color: $color4th;
-	height: 4rem;
-
-}
-
-
 
 
 /*Diagnostico*/
@@ -522,6 +542,23 @@ footer {
 
 /* Filosofia*/
 
+.section1-filo-img {
+
+			.img-talking {
+				position: relative;
+				z-index: 3;
+				left:0rem;
+				top: 5rem;
+
+				@media all and (max-width: 576px) {
+					height: 250px;
+					left:0rem;
+					top: 5rem;
+				}
+			}
+}
+
+
 .section2-filo {
 
 	.round-bgr {
@@ -547,36 +584,9 @@ footer {
 	}
 }
 
-.section1-filo-img {
-
-			.img-talking {
-				position: relative;
-				z-index: 3;
-				left:0rem;
-				top: 5rem;
-
-				@media all and (max-width: 576px) {
-					height: 250px;
-					left:0rem;
-					top: 5rem;
-				}
-			}
-}
 
 
 
-.box {
-	background-color: $color1st;
-	height: 10rem;
-	width: 10rem;
-
-	.box-btn {
-		background-color:white;
-		width: 100%;
-		border: 1px solid $color1st;
-
-	}
-}
 
 .section4-filo {
 

@@ -29,7 +29,7 @@
   font-weight: 700;
 }
 
-/*Bootstrap*/
+/* ----------- Bootstrap ----------- */
 /* line 6, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 body {
   font-family: 'Moderat', sans-serif;
@@ -37,103 +37,62 @@ body {
   font-size: 1rem;
 }
 
-/* line 13, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-.h1, h1 {
-  font-size: 3rem;
-}
-
-@media all and (max-width: 576px) {
-  /* line 13, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-  .h1, h1 {
-    font-size: 2rem;
-  }
-}
-
-/* line 23, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-.h2, h2 {
-  font-size: 1.5rem;
-}
-
-@media all and (max-width: 576px) {
-  /* line 23, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-  .h2, h2 {
-    font-size: 1.25rem;
-  }
-}
-
-/* line 33, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-.h3, h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-@media all and (max-width: 576px) {
-  /* line 33, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-  .h3, h3 {
-    font-size: 1.25rem;
-  }
-}
-
-/* line 42, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-.h4, h4 {
-  font-size: 2rem;
-}
-
-@media all and (max-width: 576px) {
-  /* line 42, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-  .h4, h4 {
-    font-size: 2rem;
-  }
-}
-
-/* line 68, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 31, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .rounded {
   border-radius: 1.25rem !important;
 }
 
-/* line 73, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 36, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .border {
   border: 2px solid #B2C3FB !important;
 }
 
-/* line 77, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* Buttons */
+/* line 44, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+button:focus {
+  box-shadow: none;
+}
+
+/* line 48, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+button:active {
+  box-shadow: none;
+}
+
+/* line 53, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+/* Forms */
+/* line 60, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .form-control {
   border: 2px solid #B2C3FB;
   color: #1B3C87;
   opacity: 1;
 }
 
-/* line 83, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 66, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .form-control:active {
   border: 2px solid #1B3C87;
   box-shadow: none;
   color: #8088DC;
 }
 
-/* line 89, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 72, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .form-control:focus {
   border: 2px solid #1B3C87;
   box-shadow: none;
   color: #8088DC;
 }
 
-/* line 95, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 78, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .form-control::placeholder {
   color: #B2C3FB;
   opacity: 1;
 }
 
-/* line 104, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-button:focus {
-  box-shadow: none;
-}
-
-/* line 108, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-button:active {
-  box-shadow: none;
-}
-
-/* line 115, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 88, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .form-check-input:checked {
   background-color: #1B3C87;
   border-color: #1B3C87;
@@ -141,164 +100,230 @@ button:active {
   outline: 0;
 }
 
-/* line 122, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 95, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .form-check-input:focus {
   box-shadow: none;
   outline: 0;
 }
 
-/* line 128, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-.btn:focus {
-  outline: 0;
-  box-shadow: none;
-}
-
-/* line 136, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* Accordion */
+/* line 106, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .accordion .accordion-item {
   border: 2px solid #B2C3FB;
 }
 
-/* line 140, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 110, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .accordion .accordion-item:last-of-type {
   border-radius: 1rem;
 }
 
-/* line 144, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 114, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .accordion .accordion-item:first-of-type {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
 
-/* line 148, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 118, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .accordion .accordion-item:first-of-type .accordion-button {
   color: #1B3C87;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
 
-/* line 154, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 124, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .accordion .accordion-item:first-of-type .accordion-button::after {
   background-image: url("../assets/arrow-down.svg");
 }
 
-/* line 159, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 129, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .accordion .accordion-item:first-of-type .accordion-button:not(.collapsed) {
   color: #1B3C87;
   background-color: white;
   box-shadow: none;
 }
 
-/* line 164, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 134, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .accordion .accordion-item:first-of-type .accordion-button:not(.collapsed)::after {
   background-image: url("../assets/arrow-down.svg");
   transform: rotate(-180deg);
 }
 
-/* line 170, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 140, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .accordion .accordion-item:first-of-type .accordion-button:focus {
   border-color: none;
   box-shadow: none;
 }
 
 /* Nabvar */
-/* line 185, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 155, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .navbar-toggler {
   color: #1B3C87 !important;
   border-color: black;
   border: 2px solid;
 }
 
-/* line 191, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 161, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .navbar-toggler:focus {
   box-shadow: none;
 }
 
-/* line 195, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 165, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .navbar-toggler:active {
   box-shadow: none;
 }
 
-/* line 202, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 172, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .navbar-light .navbar-toggler {
   color: #1B3C87 !important;
   border-color: black;
   border: 2px solid;
 }
 
-/* line 209, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 179, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .navbar-light .navbar-toggler:focus {
   box-shadow: none;
 }
 
-/* line 213, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 183, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .navbar-light .navbar-toggler:active {
   box-shadow: none;
 }
 
-/* line 217, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 187, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .navbar-light .navbar-toggler .navbar-toggler-icon {
   background-image: url("../assets/burger-menu.svg");
 }
 
-/* line 222, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 192, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .navbar-light .navbar-nav {
   font-weight: 500;
   cursor: pointer;
   color: #8088DC;
 }
 
-/* line 227, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 197, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .navbar-light .navbar-nav .nav-link {
   color: #8088DC;
 }
 
-/* line 231, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 201, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .navbar-light .navbar-nav .nav-link.active {
   color: #1B3C87;
 }
 
-/* line 235, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 205, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .navbar-light .navbar-nav .nav-link:hover {
   color: #1B3C87;
 }
 
 /* Offcanvas*/
-/* line 245, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 215, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .offcanvas-top {
   height: 100vh;
 }
 
-/* line 251, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 221, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .offcanvas-body .navbar-nav {
   font-weight: 600;
   cursor: pointer;
   color: #8088DC;
 }
 
-/* line 256, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 226, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .offcanvas-body .navbar-nav .nav-link {
   color: #8088DC;
 }
 
-/* line 260, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 230, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .offcanvas-body .navbar-nav .nav-link.active {
   color: #1B3C87;
 }
 
-/* line 264, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 234, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .offcanvas-body .navbar-nav .nav-link:hover {
   color: #1B3C87;
 }
 
-/*Main*/
-/* line 275, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* Modal*/
+/* line 244, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.modal-content {
+  border-radius: 1.5rem;
+}
+
+/* line 248, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.modal-content .modal-header {
+  border-bottom: none;
+}
+
+/* line 259, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.modal-content .modal-footer {
+  border-top: none;
+}
+
+/* line 264, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+footer {
+  background-color: #D7E0FF;
+  height: 4rem;
+}
+
+/*-------- Main --------*/
+/* line 273, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.h1, h1 {
+  font-size: 3rem;
+}
+
+@media all and (max-width: 576px) {
+  /* line 273, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+  .h1, h1 {
+    font-size: 2rem;
+  }
+}
+
+/* line 283, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.h2, h2 {
+  font-size: 1.5rem;
+}
+
+@media all and (max-width: 576px) {
+  /* line 283, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+  .h2, h2 {
+    font-size: 1.25rem;
+  }
+}
+
+/* line 293, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.h3, h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+@media all and (max-width: 576px) {
+  /* line 293, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+  .h3, h3 {
+    font-size: 1.25rem;
+  }
+}
+
+/* line 302, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.h4, h4 {
+  font-size: 2rem;
+}
+
+@media all and (max-width: 576px) {
+  /* line 302, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+  .h4, h4 {
+    font-size: 2rem;
+  }
+}
+
+/* line 311, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .btn-1 {
   border-color: #1B3C87;
   background-color: white;
   color: #1B3C87;
 }
 
-/* line 279, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 315, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .btn-1:hover {
   color: white;
   background-color: #1B3C87;
@@ -306,14 +331,14 @@ button:active {
   box-sizing: border-box;
 }
 
-/* line 288, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 324, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .btn-2 {
   border-color: #1B3C87;
   background-color: #1B3C87;
   color: white;
 }
 
-/* line 291, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 327, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .btn-2:hover {
   color: #1B3C87;
   background-color: #D7E0FF;
@@ -321,29 +346,29 @@ button:active {
   box-sizing: border-box;
 }
 
-/* line 300, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 336, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .btn-close {
   background-image: url("../assets/close.svg");
   opacity: 1;
 }
 
-/* line 304, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 340, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .btn-close:focus {
   box-shadow: none;
 }
 
-/* line 308, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 344, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .btn-close:active {
   box-shadow: none;
 }
 
-/* line 316, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 352, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .scale:hover {
   transform: scale(1.1);
   transition: all 300ms ease-in-out;
 }
 
-/* line 322, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 358, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .changeColor:hover {
   color: white;
   background-color: #1B3C87;
@@ -351,22 +376,36 @@ button:active {
   border: 2px solid #1B3C87 !important;
 }
 
-/* line 332, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 368, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .changeColorLight:hover {
   background-color: #F4F7FF;
   transition: all 300ms ease-in-out;
   border: 2px solid #F4F7FF !important;
 }
 
+/* line 378, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.box {
+  background-color: #1B3C87;
+  height: 10rem;
+  width: 10rem;
+}
+
+/* line 383, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.box .box-btn {
+  background-color: white;
+  width: 100%;
+  border: 1px solid #1B3C87;
+}
+
 /*Index*/
-/* line 346, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 395, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section1-index .round-bgr {
   background-color: #1B3C87;
   color: white;
   border-radius: 2rem;
 }
 
-/* line 354, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 403, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section1-index .round-bgr .section1-index-img .img-movil {
   position: relative;
   z-index: 3;
@@ -375,7 +414,7 @@ button:active {
 }
 
 @media all and (max-width: 576px) {
-  /* line 354, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+  /* line 403, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
   .section1-index .round-bgr .section1-index-img .img-movil {
     height: 350px;
     left: 2rem;
@@ -383,56 +422,41 @@ button:active {
   }
 }
 
-/* line 371, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-.modal-content {
-  border-radius: 1.5rem;
-}
-
-/* line 375, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-.modal-content .modal-header {
-  border-bottom: none;
-}
-
-/* line 386, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-.modal-content .modal-footer {
-  border-top: none;
-}
-
-/* line 391, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 420, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section2-index {
   margin-top: 10rem;
 }
 
-/* line 397, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 426, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section4-index .row {
   --bs-gutter-x: -6.5rem;
 }
 
-/* line 401, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 430, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section4-index .nav-link {
   color: #1B3C87;
 }
 
-/* line 404, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 433, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section4-index .nav-link:hover {
   color: #8088DC;
 }
 
 @media all and (max-width: 422px) {
-  /* line 410, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+  /* line 439, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
   .section4-index .section4-img {
     height: 32px;
   }
 }
 
-/* line 421, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 450, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section5-index .round-bgr {
   background-color: #F4F7FF;
   color: #1B3C87;
   border-radius: 2rem;
 }
 
-/* line 430, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 459, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section5-index .section5-index-img .img-report {
   position: relative;
   z-index: 3;
@@ -441,7 +465,7 @@ button:active {
 }
 
 @media all and (max-width: 576px) {
-  /* line 430, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+  /* line 459, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
   .section5-index .section5-index-img .img-report {
     height: 250px;
     left: 0rem;
@@ -449,21 +473,15 @@ button:active {
   }
 }
 
-/* line 445, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-footer {
-  background-color: #D7E0FF;
-  height: 4rem;
-}
-
 /*Diagnostico*/
-/* line 459, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 479, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section1-diag .round-bgr {
   background-color: #B2C3FB;
   color: #1B3C87;
   border-radius: 2rem;
 }
 
-/* line 466, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 486, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section1-diag .round-bgr .section1-diag-img .img-medicine {
   position: relative;
   z-index: 3;
@@ -472,7 +490,7 @@ footer {
 }
 
 @media all and (max-width: 576px) {
-  /* line 466, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+  /* line 486, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
   .section1-diag .round-bgr .section1-diag-img .img-medicine {
     height: 250px;
     left: 2rem;
@@ -480,25 +498,25 @@ footer {
   }
 }
 
-/* line 485, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 505, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section2-diag {
   margin-top: 8rem;
   margin-bottom: 5rem;
 }
 
-/* line 492, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 512, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section3-diag .row {
   --bs-gutter-x: -6.5rem;
 }
 
-/* line 499, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 519, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section4-diag .round-bgr {
   background-color: #F4F7FF;
   color: #1B3C87;
   border-radius: 2rem;
 }
 
-/* line 508, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 528, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section4-diag .section4-diag-img .img-pencil {
   position: relative;
   z-index: 3;
@@ -507,7 +525,7 @@ footer {
 }
 
 @media all and (max-width: 576px) {
-  /* line 508, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+  /* line 528, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
   .section4-diag .section4-diag-img .img-pencil {
     height: 250px;
     left: 0rem;
@@ -516,31 +534,7 @@ footer {
 }
 
 /* Filosofia*/
-/* line 527, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-.section2-filo .round-bgr {
-  background-color: #F4F7FF;
-  color: #1B3C87;
-  border-radius: 2rem;
-}
-
-/* line 535, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-.section2-filo .section2-filo-img .img-coffee {
-  position: relative;
-  z-index: 3;
-  left: 0rem;
-  top: 0rem;
-}
-
-@media all and (max-width: 576px) {
-  /* line 535, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-  .section2-filo .section2-filo-img .img-coffee {
-    height: 250px;
-    left: 0rem;
-    top: 0rem;
-  }
-}
-
-/* line 552, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 547, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section1-filo-img .img-talking {
   position: relative;
   z-index: 3;
@@ -549,7 +543,7 @@ footer {
 }
 
 @media all and (max-width: 576px) {
-  /* line 552, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+  /* line 547, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
   .section1-filo-img .img-talking {
     height: 250px;
     left: 0rem;
@@ -557,49 +551,59 @@ footer {
   }
 }
 
-/* line 568, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-.box {
-  background-color: #1B3C87;
-  height: 10rem;
-  width: 10rem;
+/* line 564, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.section2-filo .round-bgr {
+  background-color: #F4F7FF;
+  color: #1B3C87;
+  border-radius: 2rem;
 }
 
-/* line 573, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
-.box .box-btn {
-  background-color: white;
-  width: 100%;
-  border: 1px solid #1B3C87;
+/* line 572, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+.section2-filo .section2-filo-img .img-coffee {
+  position: relative;
+  z-index: 3;
+  left: 0rem;
+  top: 0rem;
 }
 
-/* line 583, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+@media all and (max-width: 576px) {
+  /* line 572, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+  .section2-filo .section2-filo-img .img-coffee {
+    height: 250px;
+    left: 0rem;
+    top: 0rem;
+  }
+}
+
+/* line 593, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section4-filo .row {
   --bs-gutter-x: -6.5rem;
 }
 
-/* line 592, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 602, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section5-filo {
   margin-top: 6rem;
 }
 
-/* line 594, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 604, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section5-filo .d-flex {
   align-items: flex-start;
 }
 
-/* line 600, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 610, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section5-filo .row {
   --bs-gutter-x: -6.5rem;
 }
 
 @media all and (max-width: 495px) {
-  /* line 605, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+  /* line 615, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
   .section5-filo .img-economista {
     height: 24px;
   }
 }
 
 /*Consultoria*/
-/* line 616, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 626, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section1-consul .round-bgr {
   background-color: #1B3C87;
   color: #F4F7FF;
@@ -607,51 +611,51 @@ footer {
 }
 
 @media all and (max-width: 576px) {
-  /* line 625, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+  /* line 635, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
   .section4-consul .h4, .section4-consul h4 {
     font-size: 1.5rem;
   }
 }
 
 /*Herramientas*/
-/* line 636, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 646, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section2-tools .row {
   --bs-gutter-x: -6.5rem;
 }
 
-/* line 642, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 652, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section2-tools .box-btn:hover {
   background-color: #C4F1E9;
   transition: all 300ms ease-in-out;
 }
 
-/* line 650, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 660, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section2-tools img:hover {
   filter: brightness(130%) contrast(65%) hue-rotate(163deg) saturate(76%) sepia(100%);
 }
 
-/* line 658, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 668, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section3-tools .row {
   --bs-gutter-x: -6.5rem;
 }
 
-/* line 663, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 673, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section3-tools .box-btn:hover {
   background-color: #C4F1E9;
   transition: all 300ms ease-in-out;
 }
 
-/* line 671, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 681, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section3-tools img:hover {
   filter: brightness(130%) contrast(65%) hue-rotate(163deg) saturate(76%) sepia(100%);
 }
 
-/* line 679, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 689, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section5-tools .row {
   --bs-gutter-x: -6.5rem;
 }
 
-/* line 684, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+/* line 694, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
 .section5-tools .img-profile {
   position: relative;
   z-index: 3;
@@ -660,7 +664,7 @@ footer {
 }
 
 @media all and (max-width: 576px) {
-  /* line 684, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
+  /* line 694, ../../../Google Drive/Coder House/Desarrollo Web - Comisión 27300/Clase 10 - GITHUB/Desafío - Creando Repositorio en GitHub/scss/_main.scss */
   .section5-tools .img-profile {
     height: 100px;
     left: 0rem;
