@@ -204,6 +204,20 @@ button {
 
 .navbar-light {
 
+	.navbar-brand {
+
+		img {
+		height:60px;
+		}
+	}
+
+	.navbar-icon {
+
+		img {
+		height:60px;
+		}
+	}
+
 	.navbar-toggler {
 
 		color: $color1st !important;
@@ -248,6 +262,20 @@ button {
 
 .offcanvas-top {
 	height: 100vh;
+
+	.navbar-brand {
+
+		img {
+		height:60px;
+		}
+	}
+
+	.navbar-icon {
+
+		img {
+		height:60px;
+		}
+	}
 }
 
 .offcanvas-body {
@@ -298,6 +326,14 @@ footer {
 
 	background-color: $color4th;
 	height: 4rem;
+
+	img {
+		height:36px;
+	}
+
+	.codehouse {
+		height:28px;
+	}
 
 }
 
@@ -439,6 +475,7 @@ footer {
 				z-index: 3;
 				left:5rem;
 				top: 5rem;
+				height:500px;
 
 				@media all and (max-width: 576px) {
 					height: 350px;
@@ -453,6 +490,10 @@ footer {
 
 .section2-index {
 	margin-top: 10rem;
+
+	img {
+		height:56px;
+	}
 }
 
 .section4-index {
@@ -472,6 +513,9 @@ footer {
 		}
 
 		.section4-img {
+
+			height:64px;
+
 			@media all and (max-width: 422px) {
 					height: 32px;
 			}
@@ -496,6 +540,7 @@ footer {
 				z-index: 3;
 				left:4rem;
 				top: 0rem;
+				height: 350px;
 
 				@media all and (max-width: 576px) {
 					height: 250px;
@@ -523,6 +568,7 @@ footer {
 				z-index: 3;
 				left:5rem;
 				top: 5rem;
+				height:500px;
 
 				@media all and (max-width: 576px) {
 					height: 250px;
@@ -565,6 +611,7 @@ footer {
 				z-index: 3;
 				left:0rem;
 				top: 0rem;
+				height:350px;
 
 				@media all and (max-width: 576px) {
 					height: 250px;
@@ -584,6 +631,7 @@ footer {
 				z-index: 3;
 				left:0rem;
 				top: 5rem;
+				height:400px;
 
 				@media all and (max-width: 576px) {
 					height: 250px;
@@ -609,6 +657,7 @@ footer {
 				z-index: 3;
 				left:0rem;
 				top: 0rem;
+				height:300px;
 
 				@media all and (max-width: 576px) {
 					height: 250px;
@@ -630,6 +679,9 @@ footer {
 
 	}
 
+	img {
+		height:55px;
+	}
 
 }
 
@@ -645,6 +697,10 @@ footer {
 	.row {
     --bs-gutter-x: -6.5rem;
 
+	}
+
+	img {
+		height:40px;
 	}
 
 	.img-economista {
@@ -692,10 +748,29 @@ footer {
 	}
 
 	img {
+
 		&:hover {
 			filter: brightness(130%) contrast(65%) hue-rotate(163deg) saturate(76%) sepia(100%) 
 		}
-	}	
+
+	}
+
+	.h48 {
+		height:48px;
+	}
+
+	.plus {
+		height:18px;
+	}
+
+	.h24 {
+		height:24px;
+	}
+
+	.h40 {
+		height:40px;
+	}
+
 }
 
 .section3-tools {
@@ -717,6 +792,23 @@ footer {
 			filter: brightness(130%) contrast(65%) hue-rotate(163deg) saturate(76%) sepia(100%) 
 		}
 	}
+
+
+	.h48 {
+		height:48px;
+	}
+
+	.plus {
+		height:18px;
+	}
+
+	.h24 {
+		height:24px;
+	}
+
+	.h112 {
+		height:112px;
+	}
 }
 
 .section5-tools {
@@ -731,6 +823,7 @@ footer {
 				z-index: 3;
 				left:0rem;
 				top: 4rem;
+				height:150px;
 
 				@media all and (max-width: 576px) {
 					height: 100px;

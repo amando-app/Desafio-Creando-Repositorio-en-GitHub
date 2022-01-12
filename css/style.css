@@ -169,6 +169,14 @@ button:not(:disabled) {
   box-shadow: none;
 }
 
+.navbar-light .navbar-brand img {
+  height: 60px;
+}
+
+.navbar-light .navbar-icon img {
+  height: 60px;
+}
+
 .navbar-light .navbar-toggler {
   color: #1B3C87 !important;
   border-color: black;
@@ -211,6 +219,14 @@ button:not(:disabled) {
   height: 100vh;
 }
 
+.offcanvas-top .navbar-brand img {
+  height: 60px;
+}
+
+.offcanvas-top .navbar-icon img {
+  height: 60px;
+}
+
 .offcanvas-body .navbar-nav {
   font-weight: 600;
   color: #8088DC;
@@ -245,6 +261,14 @@ button:not(:disabled) {
 footer {
   background-color: #D7E0FF;
   height: 4rem;
+}
+
+footer img {
+  height: 36px;
+}
+
+footer .codehouse {
+  height: 28px;
 }
 
 /*-------- Main --------*/
@@ -371,6 +395,7 @@ footer {
   z-index: 3;
   left: 5rem;
   top: 5rem;
+  height: 500px;
 }
 
 @media all and (max-width: 576px) {
@@ -385,6 +410,10 @@ footer {
   margin-top: 10rem;
 }
 
+.section2-index img {
+  height: 56px;
+}
+
 .section4-index .row {
   --bs-gutter-x: -6.5rem;
 }
@@ -396,6 +425,10 @@ footer {
 
 .section4-index .nav-link:hover {
   color: #8088DC;
+}
+
+.section4-index .section4-img {
+  height: 64px;
 }
 
 @media all and (max-width: 422px) {
@@ -415,6 +448,7 @@ footer {
   z-index: 3;
   left: 4rem;
   top: 0rem;
+  height: 350px;
 }
 
 @media all and (max-width: 576px) {
@@ -437,6 +471,7 @@ footer {
   z-index: 3;
   left: 5rem;
   top: 5rem;
+  height: 500px;
 }
 
 @media all and (max-width: 576px) {
@@ -467,6 +502,7 @@ footer {
   z-index: 3;
   left: 0rem;
   top: 0rem;
+  height: 350px;
 }
 
 @media all and (max-width: 576px) {
@@ -483,6 +519,7 @@ footer {
   z-index: 3;
   left: 0rem;
   top: 5rem;
+  height: 400px;
 }
 
 @media all and (max-width: 576px) {
@@ -504,6 +541,7 @@ footer {
   z-index: 3;
   left: 0rem;
   top: 0rem;
+  height: 300px;
 }
 
 @media all and (max-width: 576px) {
@@ -518,6 +556,10 @@ footer {
   --bs-gutter-x: -6.5rem;
 }
 
+.section4-filo img {
+  height: 55px;
+}
+
 .section5-filo {
   margin-top: 6rem;
 }
@@ -528,6 +570,10 @@ footer {
 
 .section5-filo .row {
   --bs-gutter-x: -6.5rem;
+}
+
+.section5-filo img {
+  height: 40px;
 }
 
 @media all and (max-width: 495px) {
@@ -563,6 +609,22 @@ footer {
   filter: brightness(130%) contrast(65%) hue-rotate(163deg) saturate(76%) sepia(100%);
 }
 
+.section2-tools .h48 {
+  height: 48px;
+}
+
+.section2-tools .plus {
+  height: 18px;
+}
+
+.section2-tools .h24 {
+  height: 24px;
+}
+
+.section2-tools .h40 {
+  height: 40px;
+}
+
 .section3-tools .row {
   --bs-gutter-x: -6.5rem;
 }
@@ -576,6 +638,22 @@ footer {
   filter: brightness(130%) contrast(65%) hue-rotate(163deg) saturate(76%) sepia(100%);
 }
 
+.section3-tools .h48 {
+  height: 48px;
+}
+
+.section3-tools .plus {
+  height: 18px;
+}
+
+.section3-tools .h24 {
+  height: 24px;
+}
+
+.section3-tools .h112 {
+  height: 112px;
+}
+
 .section5-tools .row {
   --bs-gutter-x: -6.5rem;
 }
@@ -585,6 +663,7 @@ footer {
   z-index: 3;
   left: 0rem;
   top: 4rem;
+  height: 150px;
 }
 
 @media all and (max-width: 576px) {
