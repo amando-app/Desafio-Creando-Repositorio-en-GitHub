@@ -8,6 +8,11 @@ body {
 	@extend .font-weight-regular;
 	color: $color1st;
 	font-size: 1rem;
+	cursor: url("../assets/cursor.svg"), pointer;
+
+	a {
+	cursor: url("../assets/cursor-link.svg"), pointer;
+	}
 }
 
 
@@ -48,11 +53,39 @@ button {
     &:active {
     	box-shadow: none;
     }
+
 }
 
-.btn:focus {
+[type=button] {
+	&:not(:disabled) {
+		cursor: url("../assets/cursor-link.svg"), pointer;
+	}
+}
+[type=reset] {
+	&:not(:disabled) {
+		cursor: url("../assets/cursor-link.svg"), pointer;
+	}
+}
+[type=submit] {
+	&:not(:disabled) {
+		cursor: url("../assets/cursor-link.svg"), pointer;
+	}
+}
+button {
+	&:not(:disabled) {
+		cursor: url("../assets/cursor-link.svg"), pointer;
+	}
+}
+
+
+.btn {
+
+	cursor: url("../assets/cursor-link.svg"), pointer;
+	&:focus {
     outline: 0;
     box-shadow: none;
+	}
+	
 }
 
 /* Forms */
@@ -80,7 +113,6 @@ button {
 			opacity: 1;
         }
 }
-
 
 
 .form-check-input {
@@ -120,6 +152,7 @@ button {
 	    		color: $color1st;
 				border-top-left-radius: 1rem;
 		    	border-top-right-radius: 1rem;
+		    	cursor: url("../assets/cursor-link.svg"), pointer;
 
 		    	&::after {
 		
@@ -156,7 +189,7 @@ button {
 		    color: $color1st !important;
 		    border-color: black;
     		border:2px solid;
-    		
+    		cursor: url("../assets/cursor-link.svg"), pointer;
 
     		&:focus {
     			box-shadow: none;
@@ -174,7 +207,7 @@ button {
 		color: $color1st !important;
 		border-color: black;
 		border:2px solid;
-		    		
+		cursor: url("../assets/cursor-link.svg"), pointer;		    		
 
 		&:focus {
 		    box-shadow: none;
@@ -191,11 +224,12 @@ button {
 
     .navbar-nav {
 	font-weight: 500;
-	cursor: pointer;
 	color:$color2nd;
 
 		.nav-link {
 		color: $color2nd;
+		cursor: url("../assets/cursor-link.svg"), pointer;
+		transition: all 300ms ease-in-out;
 
 
 			&.active {
@@ -220,11 +254,12 @@ button {
 
 	.navbar-nav {
 	font-weight: 600;
-	cursor: pointer;
 	color:$color2nd;
 
 		.nav-link {
 		color: $color2nd;
+		cursor: url("../assets/cursor-link.svg"), pointer;
+		transition: all 300ms ease-in-out;
 
 
 			&.active {
@@ -335,6 +370,7 @@ footer {
 
 .btn-close {
 	background-image: url('../assets/close.svg');
+	cursor: url("../assets/cursor-link.svg"), pointer;
 	opacity: 1;
 
     		&:focus {
@@ -429,6 +465,8 @@ footer {
 
 		.nav-link {
 		color: $color1st;
+		cursor: url("../assets/cursor-link.svg"), pointer;
+		transition: all 300ms ease-in-out;
 
 			&:hover {
 			color: $color2nd;
