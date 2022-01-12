@@ -4,6 +4,7 @@
 /* ----------- Bootstrap ----------- */
 
 body {
+
 	font-family: 'Moderat', sans-serif;
 	@extend .font-weight-regular;
 	color: $color1st;
@@ -11,9 +12,7 @@ body {
 	cursor: url("../assets/cursor.svg"), pointer;
 
 	a {
-
-	cursor: url("../assets/cursor-link.svg"), pointer;
-
+		cursor: url("../assets/cursor-link.svg"), pointer;
 	}
 }
 
@@ -37,7 +36,6 @@ h4 {
 
 .rounded {
     border-radius: 1.25rem!important;
-
 }
 
 .border {
@@ -83,9 +81,10 @@ button {
 .btn {
 
 	cursor: url("../assets/cursor-link.svg"), pointer;
+
 	&:focus {
-    outline: 0;
-    box-shadow: none;
+    	outline: 0;
+    	box-shadow: none;
 	}
 	
 }
@@ -94,26 +93,26 @@ button {
 
 .form-control {
 
-		border: 2px solid $color3rd;
-        color: $color1st;
-        opacity: 1;
+	border: 2px solid $color3rd;
+    color: $color1st;
+    opacity: 1;
 
-        &:active {
-        	border:2px solid $color1st;
-			box-shadow: none;
-			color: $color2nd;
-        }
+    &:active {
+        border:2px solid $color1st;
+		box-shadow: none;
+		color: $color2nd;
+	}
 
-        &:focus {
-        	border:2px solid $color1st;
-			box-shadow: none;
-			color: $color2nd;
-        }
+    &:focus {
+        border:2px solid $color1st;
+		box-shadow: none;
+		color: $color2nd;
+	}
 
-        &::placeholder {
-        	color: $color3rd;
-			opacity: 1;
-        }
+    &::placeholder {
+        color: $color3rd;
+		opacity: 1;
+	}
 }
 
 
@@ -188,18 +187,19 @@ button {
 /* Nabvar */
 
 .navbar-toggler {
-		    color: $color1st !important;
-		    border-color: black;
-    		border:2px solid;
-    		cursor: url("../assets/cursor-link.svg"), pointer;
 
-    		&:focus {
-    			box-shadow: none;
-    		}
+	color: $color1st !important;
+	border-color: black;
+    border:2px solid;
+    cursor: url("../assets/cursor-link.svg"), pointer;
 
-    		&:active {
-    			box-shadow: none;
-    		}
+    &:focus {
+    	box-shadow: none;
+    }
+
+    &:active {
+    	box-shadow: none;
+    }
 }
 
 .navbar-light {
@@ -320,6 +320,10 @@ button {
 	.modal-footer {
 		border-top: none;
 	}
+
+	.img-chat {
+		height:300px;
+	}
 }
 
 footer {
@@ -407,24 +411,31 @@ footer {
 	cursor: url("../assets/cursor-link.svg"), pointer;
 	opacity: 1;
 
-    		&:focus {
-    			box-shadow: none;
-    		}
+    &:focus {
+    	ox-shadow: none;
+    }
 
-    		&:active {
-    			box-shadow: none;
-    		}
+    &:active {
+    	box-shadow: none;
+    }
 
 }
 
 
 
-.scale:hover {
+.scale {
+
+	&:hover {
 	transform: scale(1.1);
 	transition: all 300ms ease-in-out;
+	}
+	
 }
 
+
+
 .changeColor {
+
 	&:hover {
 		color: white;
 		background-color:$color1st;
@@ -435,6 +446,7 @@ footer {
 }
 
 .changeColorLight {
+
 	&:hover {
 		
 		background-color:$color5th;
@@ -446,6 +458,7 @@ footer {
 
 
 .box {
+
 	background-color: $color1st;
 	height: 10rem;
 	width: 10rem;
@@ -489,6 +502,7 @@ footer {
 
 
 .section2-index {
+
 	margin-top: 10rem;
 
 	img {
@@ -498,29 +512,29 @@ footer {
 
 .section4-index {
 
-		.row {
-   		 --bs-gutter-x: -6.5rem;
+	.row {
+   	 --bs-gutter-x: -6.5rem;
+	}
+
+	.nav-link {
+	color: $color1st;
+	cursor: url("../assets/cursor-link.svg"), pointer;
+
+		&:hover {
+		color: $color2nd;
 		}
 
-		.nav-link {
-		color: $color1st;
-		cursor: url("../assets/cursor-link.svg"), pointer;
+	}
 
-			&:hover {
-			color: $color2nd;
-			}
+	.section4-img {
 
+		height:64px;
+
+		@media all and (max-width: 422px) {
+			height: 32px;
 		}
 
-		.section4-img {
-
-			height:64px;
-
-			@media all and (max-width: 422px) {
-					height: 32px;
-			}
-
-		}
+	}
 
 }
 
@@ -535,19 +549,19 @@ footer {
 
 	.section5-index-img {
 
-			.img-report {
-				position: relative;
-				z-index: 3;
-				left:4rem;
-				top: 0rem;
-				height: 350px;
+		.img-report {
+			position: relative;
+			z-index: 3;
+			left:4rem;
+			top: 0rem;
+			height: 350px;
 
-				@media all and (max-width: 576px) {
-					height: 250px;
-					left:0rem;
-					top: 2rem;
-				}
+			@media all and (max-width: 576px) {
+				height: 250px;
+				left:0rem;
+				top: 2rem;
 			}
+		}
 	}
 }
 
@@ -606,19 +620,19 @@ footer {
 
 	.section4-diag-img {
 
-			.img-pencil {
-				position: relative;
-				z-index: 3;
-				left:0rem;
-				top: 0rem;
-				height:350px;
+		.img-pencil {
+			position: relative;
+			z-index: 3;
+			left:0rem;
+			top: 0rem;
+			height:350px;
 
-				@media all and (max-width: 576px) {
-					height: 250px;
-					left:0rem;
-					top: -4rem;
-				}
+			@media all and (max-width: 576px) {
+				height: 250px;
+				left:0rem;
+				top: -4rem;
 			}
+		}
 	}
 }
 
@@ -626,19 +640,20 @@ footer {
 
 .section1-filo-img {
 
-			.img-talking {
-				position: relative;
-				z-index: 3;
-				left:0rem;
-				top: 5rem;
-				height:400px;
+	.img-talking {
 
-				@media all and (max-width: 576px) {
-					height: 250px;
-					left:0rem;
-					top: 5rem;
-				}
-			}
+		position: relative;
+		z-index: 3;
+		left:0rem;
+		top: 5rem;
+		height:400px;
+
+		@media all and (max-width: 576px) {
+			height: 250px;
+			left:0rem;
+			top: 5rem;
+		}
+	}
 }
 
 
@@ -652,19 +667,19 @@ footer {
 
 	.section2-filo-img {
 
-			.img-coffee {
-				position: relative;
-				z-index: 3;
-				left:0rem;
-				top: 0rem;
-				height:300px;
+		.img-coffee {
+			position: relative;
+			z-index: 3;
+			left:0rem;
+			top: 0rem;
+			height:300px;
 
-				@media all and (max-width: 576px) {
-					height: 250px;
-					left:0rem;
-					top: 0rem;
-				}
+		@media all and (max-width: 576px) {
+			height: 250px;
+			left:0rem;
+			top: 0rem;
 			}
+		}
 	}
 }
 
@@ -675,8 +690,7 @@ footer {
 .section4-filo {
 
 	.row {
-    --bs-gutter-x: -6.5rem;
-
+    	--bs-gutter-x: -6.5rem;
 	}
 
 	img {
@@ -695,7 +709,7 @@ footer {
 	margin-top: 6rem;
 
 	.row {
-    --bs-gutter-x: -6.5rem;
+    	--bs-gutter-x: -6.5rem;
 
 	}
 
@@ -724,9 +738,10 @@ footer {
 
 .section4-consul {
 	.h4 {
+
 		@media all and (max-width: 576px) {
 		font-size: 1.5rem;
-	}
+		}
 	}
 }
 
@@ -736,7 +751,7 @@ footer {
 
 	.row {
    		 --bs-gutter-x: -6.5rem;
-		}
+	}
 
 	.box-btn {
 
@@ -780,10 +795,10 @@ footer {
 	}
 
 	.box-btn {
-		&:hover {
 
-		background-color:#C4F1E9;
-		transition: all 300ms ease-in-out;
+		&:hover {
+			background-color:#C4F1E9;
+			transition: all 300ms ease-in-out;
 		}	
 	}
 
@@ -814,23 +829,21 @@ footer {
 .section5-tools {
 
 	.row {
-    --bs-gutter-x: -6.5rem;
+    	--bs-gutter-x: -6.5rem;
 	}
 
 
 	.img-profile {
-				position: relative;
-				z-index: 3;
-				left:0rem;
-				top: 4rem;
-				height:150px;
+		position: relative;
+		z-index: 3;
+		left:0rem;
+		top: 4rem;
+		height:150px;
 
-				@media all and (max-width: 576px) {
-					height: 100px;
-					left:0rem;
-					top: 3rem;
-				}
+		@media all and (max-width: 576px) {
+			height: 100px;
+			left:0rem;
+			top: 3rem;
+		}
 	}
-
-
 }

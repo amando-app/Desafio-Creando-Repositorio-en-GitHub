@@ -98,7 +98,7 @@
         <div class="col ms-0 ms-lg-5 section1-text">
           <h1 class="h1 mb-3">Un app con todo lo que necesitas para cuidar tu negocio</h1>
           <p class="h2 mb-4">Diagnóstico, consultas y herramientas.</p>
-          <a class="btn btn-1 rounded-pill p-3 fs-5 mt-3 border-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="links/consulta.html" role="button">¿Cuánto cuesta?</a>
+          <a class="btn btn-1 rounded-pill p-3 fs-5 mt-3 border-2" data-bs-toggle="modal" data-bs-target="#modal-1" href="links/consulta.html" role="button">¿Cuánto cuesta?</a>
         </div>
 
         <div class="col section1-index-img">
@@ -109,12 +109,12 @@
     </div>
 
     <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal fade" id="modal-1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal-1-label" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
 
           <div class="modal-header">
-            <h2 class="modal-title h3" id="staticBackdropLabel">Plan Konsulta</h2>
+            <h2 class="modal-title h3" id="modal-1-label">Plan Konsulta</h2>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
 
@@ -157,12 +157,36 @@
           </div>
 
           <div class=" d-grid">
-                <button type="submit" class="btn btn-2 rounded-pill p-3 fs-5 m-3 border-2">Enviar</button>
+                <button type="submit" class="btn btn-2 rounded-pill p-3 fs-5 m-3 border-2" data-bs-target="#modal-2" data-bs-toggle="modal" data-bs-dismiss="modal">Enviar</button>
           </div>
 
         </div>
       </div>
     </div>
+
+    <div class="modal fade" id="modal-2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal-2-label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content text-center">
+
+          <div class="modal-header flex-column align-items-center">
+            <h2 class="modal-title h3" id="modal-2-label">Gracias</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body">
+            <p class="h3">En un momento, uno de nuestros asesores se comunicará contigo.</p>
+            <p >Te estaremos enviando a tu correo y Whatsapp toda la información que necesitas.</p>
+            <img class="mx-auto d-block img-chat" src="assets/img-chat.svg" alt="img chat">
+
+            <div class=" d-grid">
+                  <button type="submit" class="btn btn-2 rounded-pill p-3 fs-5 m-3 border-2" aria-label="Close" data-bs-dismiss="modal">Listo</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <!-- Section 2 --> 
     <div class="container-fluid section2-index">

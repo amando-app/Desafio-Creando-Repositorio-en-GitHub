@@ -258,6 +258,10 @@ button:not(:disabled) {
   border-top: none;
 }
 
+.modal-content .img-chat {
+  height: 300px;
+}
+
 footer {
   background-color: #D7E0FF;
   height: 4rem;
@@ -346,7 +350,7 @@ footer .codehouse {
 }
 
 .btn-close:focus {
-  box-shadow: none;
+  ox-shadow: none;
 }
 
 .btn-close:active {
