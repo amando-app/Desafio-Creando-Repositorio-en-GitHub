@@ -196,7 +196,6 @@ button:not(:disabled) {
 .navbar-light .navbar-nav .nav-link {
   color: #8088DC;
   cursor: url("../assets/cursor-link.svg"), pointer;
-  transition: all 300ms ease-in-out;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
@@ -220,7 +219,6 @@ button:not(:disabled) {
 .offcanvas-body .navbar-nav .nav-link {
   color: #8088DC;
   cursor: url("../assets/cursor-link.svg"), pointer;
-  transition: all 300ms ease-in-out;
 }
 
 .offcanvas-body .navbar-nav .nav-link.active {
@@ -250,6 +248,12 @@ footer {
 }
 
 /*-------- Main --------*/
+.transitionPage {
+  height: 100vh;
+  width: 100vw;
+  background-color: #1B3C87;
+}
+
 .h1, h1 {
   font-size: 3rem;
 }
@@ -394,7 +398,6 @@ footer {
 .section4-index .nav-link {
   color: #1B3C87;
   cursor: url("../assets/cursor-link.svg"), pointer;
-  transition: all 300ms ease-in-out;
 }
 
 .section4-index .nav-link:hover {
